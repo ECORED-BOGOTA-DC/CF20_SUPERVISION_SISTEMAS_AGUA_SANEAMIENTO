@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="142" viewBox="0 0 190 142">
+  <g id="Grupo_1013619" data-name="Grupo 1013619" transform="translate(-390 -3487)">
+    <g id="Rectángulo_350147" data-name="Rectángulo 350147" transform="translate(390 3487)" fill="#fff" stroke="#ffa031" stroke-width="3">
+      <rect width="190" height="142" rx="20" stroke="none"/>
+      <rect x="1.5" y="1.5" width="187" height="139" rx="18.5" fill="none"/>
+    </g>
+    <g id="Grupo_1013567" data-name="Grupo 1013567" transform="translate(-258.166 3127.383)">
+      <path id="Trazado_732171" data-name="Trazado 732171" d="M712.069,379.617v72.96h72.96" transform="translate(9.012)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="5"/>
+      <line id="Línea_2947" data-name="Línea 2947" y1="28.168" x2="28.915" transform="translate(765.126 379.617)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Trazado_732172" data-name="Trazado 732172" d="M692.166,407.785v72.96h72.96l28.915-28.168v-72.96h-72.96Z" transform="translate(0)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Trazado_732173" data-name="Trazado 732173" d="M765.126,471.967v-72.96h-72.96" transform="translate(0 8.779)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Línea_2948" data-name="Línea 2948" y1="28.168" x2="28.915" transform="translate(692.166 452.578)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="5"/>
+    </g>
+  </g>
+</svg>
