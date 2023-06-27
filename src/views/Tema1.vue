@@ -53,7 +53,7 @@
         .titulo-sexto.color-figura.mb-5
           h5.mb-0 Figura 1.
           br
-          span Representación de recipiente cúbico con medidas en metros
+          i Representación de recipiente cúbico con medidas en metros
 
       .col-8.col-lg-3.mb-5
         figure
@@ -75,7 +75,7 @@
         .titulo-sexto.color-figura.mb-5
           h5.mb-0 Figura 2.
           br
-          span Representación del recipiente cúbico en centímetros
+          i Representación del recipiente cúbico en centímetros
 
       .col-8.col-lg-3.mb-4
         figure
@@ -99,7 +99,7 @@
         .titulo-sexto.color-figura.mb-5
           h5.mb-0 Figura 3.
           br
-          span Representación del recipiente cúbico en pies
+          i Representación del recipiente cúbico en pies
 
       .col-8.col-lg-3.mb-4
         figure
@@ -557,7 +557,7 @@
         .titulo-sexto.color-figura.mb-5
           h5.mb-0 Figura 4.
           br
-          span Flujos a través de vertederos
+          i Flujos a través de vertederos
 
       .col-lg-8.mb-4
         figure
@@ -571,7 +571,7 @@
         .titulo-sexto.color-figura.mb-5
           h5.mb-0 Figura 5.
           br
-          span Medidores de flujo
+          i Medidores de flujo
 
       .col-lg-6.mb-4
         figure
@@ -637,7 +637,7 @@
         .titulo-sexto.color-figura.mb-5
           h5.mb-0 Figura 6.
           br
-          span Partes de un medidor Parshall
+          i Partes de un medidor Parshall
 
       .col-lg-8
         figure.mb-5
@@ -707,7 +707,7 @@
 
 
     separador
-    #t_1_3.titulo-segundo.color-acento-contenido
+    #t_1_3.titulo-segundo.color-acento-botones
        h2 1.3 Aguas residuales o vertimientos
 
     .row.justify-content-center.align-items-center.mb-5
@@ -729,7 +729,7 @@
         .titulo-sexto.color-figura.mb-5
           h5.mb-0 Figura 7.
           br
-          span Configuración sistema hídrico
+          i Configuración sistema hídrico
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -854,7 +854,7 @@
         .titulo-sexto.color-figura.mb-5
           h5.mb-0 Figura 8.
           br
-          span Relación del agua residual con los cuerpos de agua
+          i Relación del agua residual con los cuerpos de agua
 
       .col-lg-8
         figure
@@ -898,7 +898,7 @@
         .titulo-sexto.color-figura.mb-5
           h5.mb-0 Figura 9.
           br
-          span Tipos de descargas de agua residual  
+          i Tipos de descargas de agua residual  
 
       .col-8.col-lg-3.mb-3
         figure
@@ -979,7 +979,7 @@
         .titulo-sexto.color-figura.mb-5
           h5.mb-0 Figura 10.
           br
-          span Cálculo de concentración en la mezcla de aguas residuales
+          i Cálculo de concentración en la mezcla de aguas residuales
 
       .col-lg-7.mb-5
         figure
@@ -1022,7 +1022,7 @@
         .titulo-sexto.color-figura.mb-5
           h5.mb-0 Figura 11.
           br
-          span Tanques de concentración
+          i Tanques de concentración
 
       .col-lg-7.mb-5
         figure
@@ -1118,7 +1118,7 @@
         .titulo-sexto.color-figura.mb-5
           h5.mb-0 Figura 12.
           br
-          span Caudales
+          i Caudales
 
       .col-lg-7
         figure
