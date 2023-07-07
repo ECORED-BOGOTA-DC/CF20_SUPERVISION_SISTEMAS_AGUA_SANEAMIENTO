@@ -91,7 +91,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      p De este modo se conoce que un metro (1 m) es equivalente a cien centímetros (100 cm), pero un metro cúbico (1 m<sup>3</sup>) equivale a un millón de centímetros cúbicos (1 '000.000 cm3)
+      p De este modo se conoce que un metro (1 m) es equivalente a cien centímetros (100 cm), pero un metro cúbico (1 m<sup>3</sup>) equivale a un millón de centímetros cúbicos (1 '000.000 cm<sup>3</sup>)
 
       p.mb-5 Siguiendo el mismo método se puede hacer una relación entre las medidas de volumen del sistema internacional y las medidas de volumen del sistema anglosajón, teniendo en cuenta que un metro (1m) equivale a 3,28084 pies. De este modo, el mismo recipiente cúbico tiene como medidas las que se muestran en la figura 3:
 
@@ -161,6 +161,9 @@
             .tarjeta.tarjeta-amarilla2.p-5.mb-4
               .row.justify-content-center.align-items-center
                 p Volumen agua en pies cúbicos = 54.737,73 pies3
+
+    .row.mb-5
+      p Presentamos el desarrollo un ejercicio utilizando la fórmula de volumen tanque, para determinar su capacidad, analicemos con atención. 
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -573,13 +576,12 @@
           br
           i Medidores de flujo
 
-      .col-lg-6.mb-4
+      .col-lg-6.mb-5
         figure
           img(src='@/assets/curso/temas/tema1/img33.svg', alt='Texto que describa la imagen')     
-
+          figcaption Nota. Lux, M. (2010). Medidores de flujo en canales abiertos. Guatemala: Universidad de San Carlos. (pp.15-18)
+      
       .col-lg-11
-        p.mb-5 Nota. Nota. Lux, M. (2010). Medidores de flujo en canales abiertos. Guatemala: Universidad de San Carlos. (pp.15-18)
-
         p Cuando se quiere conocer el caudal de un vertedero, la variable principal es la cabeza (altura que adquiere el agua al salir del vertedero) y una variable secundaria que es la longitud de la cresta.
 
         p.mb-5 Por ejemplo, se desea conocer el caudal de un vertedero rectangular con contracción, el cual tiene una longitud de cresta de 2 metros y una cabeza de 0,1 metros.
@@ -613,7 +615,7 @@
                 .col.mb-3.mb-sm-0
                   p Para ampliar la información sobre vertederos, lo invitamos a consultar el documento “Medidores de flujo en canales abiertos”, el cual se encuentra en el material complementario.
                 .col-sm-auto
-                  a.boton.boton-amarillo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.boton-amarillo(href="https://www.academia.edu/20330463/Canal_Parshall" target="_blank")
                     span Ver más
                     i.fas.fa-link
 
@@ -656,7 +658,7 @@
                 .col.mb-3.mb-sm-0
                   p Para ampliar la información sobre canaletas Parshall, lo invitamos a consultar el documento “Serie autodidáctica de medición, canaleta Parshall”, que se encuentra en el material complementario.
                 .col-sm-auto
-                  a.boton.boton-amarillo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.boton-amarillo(href="https://www.academia.edu/20330463/Canal_Parshall" target="_blank")
                     span Ver más
                     i.fas.fa-link
 
@@ -801,7 +803,7 @@
                   p.mb-0 Para consultarlo debe ingresar a la página de bibliotecas del SENA y posteriormente a bases de datos, una vez allí, consultar E-libro y buscar: generación de aguas residuales, dar clic en el segundo libro que indica AGUA, de Guerrero Legarreta, Manuel.
 
                 .col-sm-auto
-                  a.boton.boton-amarillo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.boton-amarillo(href="https://biblioteca.sena.edu.co/F/TVYNF98RI79U6DIFE236T5LD7CUR9VIKJHPQMSX19QABM6CC7J-19534?func=full-set-set&set_number=004676&set_entry=000001&format=999 " target="_blank")
                     span Ver más
                     i.fas.fa-link
 
