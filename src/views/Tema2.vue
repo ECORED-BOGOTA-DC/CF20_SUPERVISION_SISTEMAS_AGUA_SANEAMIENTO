@@ -35,7 +35,7 @@
 
           p(numero="3" titulo="Resolución 3957, 2009") Por la cual se establece la norma técnica, para el control y manejo de los vertimientos realizados al recurso hídrico en el Distrito Capital, específicamente para alcantarillados.
 
-          p(numero="4" titulo="Decreto 3930, 2010") Por la cual se establece la norma técnica, para el control y manejo de los vertimientos realizados al recurso hídrico en el Distrito Capital, específicamente a cuerpos de agua.
+          p(numero="4" titulo="Decreto 3930, 2010") Por el cual se reglamenta parcialmente el Título I de la Ley 9ª de 1979, así como el Capítulo II del Título VI -Parte III- Libro II del Decreto-ley 2811 de 1974 en cuanto a usos del agua y residuos líquidos y se dictan otras disposiciones.
           
           p(numero="5" titulo="Decreto 2667, 2012") Por el cual se reglamenta la tasa retributiva por la utilización directa e indirecta del agua como receptor de los vertimientos puntuales, y se toman otras determinaciones.
         
@@ -80,29 +80,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      p.mb-5 Los contaminantes de las aguas residuales pueden ser controlados, eliminados o reducidos mediante la aplicación de diferentes métodos y equipos de tratamiento, los cuales podrían, según su característica principal, clasificarse en:
-
-      TabsB.color-primario
-        .py-4.py-md-5(titulo="Tratamiento preliminar o pretratamiento" :icono="require('@/assets/curso/temas/tema2/img3.svg')")
-          .row.p-5
-            p Está destinado a preparar las aguas residuales para que puedan recibir un tratamiento posterior, evitando que se presenten obstrucción de tuberías por presencia de sólidos flotantes y buscando que no se dé una fluctuación de caudal incontrolable, las unidades de tratamiento preliminar más utilizadas son las rejas o rejillas (cribado o tamizado), los desengrasadores, los tanques de compensación (homogeneización) y los desarenadores.
-          
-        .py-4.py-md-5(titulo="Tratamiento primario" :icono="require('@/assets/curso/temas/tema2/img4.svg')")
-          .row.p-5
-            p Consistente en la eliminación de los sólidos suspendidos contenidos en ellas por cualquier método, también se usan tamices y equipos como sedimentadores para realizar métodos como sedimentación, filtración, flotación, precipitación entre otros.
-
-        .py-4.py-md-5(titulo="Tratamiento secundario" :icono="require('@/assets/curso/temas/tema2/img5.svg')")
-          .row.p-5
-            p Consistente en la eliminación o en la remoción de materia orgánica soluble y suspendida en compuestos estables, por medio de tratamientos fisicoquímicos como la coagulación , floculación , decantación, flotación, filtración, separación por membranas, adsorción e intercambio de iones, tratamientos químicos (precipitación, neutralización y óxido-reducción) y tratamientos biológicos (lodos activados, filtros percoladores, tanques Imhoff, lagunas de oxidación, biodiscos, zanjas de oxidación, filtros de arena, zanjas filtrantes) para eliminar patógenos y otros elementos contaminantes.
-          
-        .py-4.py-md-5(titulo="Tratamiento terciario" :icono="require('@/assets/curso/temas/tema2/img6.svg')")
-          .row.p-5
-            p Es el último paso del tratamiento del agua residual, con el fin de pulir el efluente del tratamiento secundario, eliminando elementos como el Nitrógeno (N), fósforo (P), potasio (K), Calcio (Ca) y otros.
-
-    
-    .row.justify-content-center.align-items-center.mb-5
-      p Sin embargo, otra forma de clasificar o seleccionar los métodos de tratamiento es dada dependiendo del nivel de depuración que se requiera y al nivel que se quiere llegar. De esta forma se pueden distinguir cuatro fases:
-
+      p Los contaminantes de las aguas residuales pueden ser controlados, eliminados o reducidos mediante la aplicación de diferentes métodos y equipos de tratamiento, los cuales podrían, según su característica principal, clasificarse en:
 
     .row.justify-content-center.mb-5
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -130,7 +108,32 @@
               img(src="@/assets/curso/temas/tema2/img9.svg", alt="alt")
           .crd_hover_txt--body
             h4.mb-3.text-center Tratamientos biológicos
-            p.mb-5 Son procesos unitarios de transformación biológica, es decir, que la eliminación del contaminante se da por una actividad biológica.   
+            p.mb-5 Son procesos unitarios de transformación biológica, es decir, que la eliminación del contaminante se da por una actividad biológica. 
+
+    
+    .row.justify-content-center.align-items-center.mb-5
+      p Sin embargo, otra forma de clasificar o seleccionar los métodos de tratamiento es dada dependiendo del nivel de depuración que se requiera y al nivel que se quiere llegar. De esta forma se pueden distinguir cuatro fases:
+
+    .row.justify-content-center.align-items-center.mb-5
+      TabsB.color-primario
+        .py-4.py-md-5(titulo="Tratamiento preliminar o pretratamiento" :icono="require('@/assets/curso/temas/tema2/img3.svg')")
+          .row.p-5
+            p Está destinado a preparar las aguas residuales para que puedan recibir un tratamiento posterior, evitando que se presenten obstrucción de tuberías por presencia de sólidos flotantes y buscando que no se dé una fluctuación de caudal incontrolable, las unidades de tratamiento preliminar más utilizadas son las rejas o rejillas (cribado o tamizado), los desengrasadores, los tanques de compensación (homogeneización) y los desarenadores.
+          
+        .py-4.py-md-5(titulo="Tratamiento primario" :icono="require('@/assets/curso/temas/tema2/img4.svg')")
+          .row.p-5
+            p Consistente en la eliminación de los sólidos suspendidos contenidos en ellas por cualquier método, también se usan tamices y equipos como sedimentadores para realizar métodos como sedimentación, filtración, flotación, precipitación entre otros.
+
+        .py-4.py-md-5(titulo="Tratamiento secundario" :icono="require('@/assets/curso/temas/tema2/img5.svg')")
+          .row.p-5
+            p Consistente en la eliminación o en la remoción de materia orgánica soluble y suspendida en compuestos estables, por medio de tratamientos fisicoquímicos como la coagulación , floculación , decantación, flotación, filtración, separación por membranas, adsorción e intercambio de iones, tratamientos químicos (precipitación, neutralización y óxido-reducción) y tratamientos biológicos (lodos activados, filtros percoladores, tanques Imhoff, lagunas de oxidación, biodiscos, zanjas de oxidación, filtros de arena, zanjas filtrantes) para eliminar patógenos y otros elementos contaminantes.
+          
+        .py-4.py-md-5(titulo="Tratamiento terciario" :icono="require('@/assets/curso/temas/tema2/img6.svg')")
+          .row.p-5
+            p Es el último paso del tratamiento del agua residual, con el fin de pulir el efluente del tratamiento secundario, eliminando elementos como el Nitrógeno (N), fósforo (P), potasio (K), Calcio (Ca) y otros.
+
+
+  
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -232,7 +235,7 @@
             .col-lg-10
               .row.justify-content-center.align-items-center.mb-5
                 .col-lg-3
-                  p.text-center Eficiencia (%) =
+                  p.text-center <i>Eficiencia (%) =</i>
 
                 .col-lg-8
                   figure
@@ -240,39 +243,47 @@
 
               .row.justify-content-center.align-items-center.mb-5
                 .col-lg-3
-                  p.text-center 93% = 
+                  p.text-center <i>93% =</i>
 
                 .col-lg-8
                   figure
                     img(src="@/assets/curso/temas/tema2/img13.svg", alt="alt").img12-13_tm2
 
+              .row.justify-content-center.align-items-center.mb-5
+                .col-lg-3
+                  p.text-center <i>0,93=</i>
+
+                .col-lg-8
+                  figure
+                    img(src="@/assets/curso/temas/tema2/img13-2.svg", alt="alt").img12-13_tm2
+
               .row.mb-3
                 .col-lg-4
-                  p 0,93 x 1200 mg/l =
+                  p <i>0,93 x 1200 mg/l =</i>
 
                 .col-lg-8 
-                  p 1200 mg/l - Concentración efluente
+                  p <i>1200 mg/l - Concentración efluente</i>
 
               .row.mb-3
                 .col-lg-5
-                  p Concentración efluente = 
+                  p <i>Concentración efluente =</i>
 
                 .col-lg-7
-                  p 1200 mg/l - (0,93 x 1200 mg/l)
+                  p <i>1200 mg/l - (0,93 x 1200 mg/l)</i>
 
               .row.mb-3
                 .col-lg-5
-                  p Concentración efluente = 
+                  p <i>Concentración efluente =</i>
 
                 .col-lg-7
-                  p 1200 mg/l -1116 mg/l
+                  p <i>1200 mg/l -1116 mg/l</i>
 
               .row.mb-3
                 .col-lg-5
-                  p Concentración efluente = 
+                  p <i>Concentración efluente =</i> 
 
                 .col-lg-7
-                  p 84  mg/l
+                  p <i>84  mg/l</i>
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -285,23 +296,50 @@
             .col-lg-11
               .row.mb-4
                 .col-lg-4
-                  p.text-center Eficiencia equipo A (%) =
+                  p.text-center <i>Eficiencia equipo A (%) =</i>
                 .col-lg-7
                   figure
                     img(src="@/assets/curso/temas/tema2/img16.svg", alt="alt")
 
               .row
-                p Concentración intermedia = Concentración inicial -( Concentración inicial x eficiencia equipo A/100)
+                p <i>Concentración intermedia = Concentración inicial -( Concentración inicial x eficiencia equipo A/100)</i>
 
-                p Concentración intermedia = 1000 mg/l -( 1000 mg/l  x  0,5)
+                p <i>Concentración intermedia = 1000 mg/l -( 1000 mg/l  x  0,5)</i>
 
-                p Concentración intermedia = 1000 mg/l - 500 mg/l
+                p <i>Concentración intermedia = 1000 mg/l - 500 mg/l</i>
 
-                p Concentración intermedia = 500 mg/l
+                p <i>Concentración intermedia = 500 mg/l</i>
 
 
+      p Luego así, conociendo la concentración intermedia, se puede calcular la concentración final a partir del equipo B, así:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .bg-fondo7.p-4.mb-5
+          .row.mt-3
+            .col-3.col-lg-1
+              figure
+                img(src="@/assets/curso/temas/tema2/img15.svg", alt="alt")
+
+            .col-lg-11
+              .row.mb-4
+                .col-lg-4
+                  p.text-center <i>Eficiencia equipo B (%) =</i>
+                .col-lg-7
+                  figure
+                    img(src="@/assets/curso/temas/tema2/img16.svg", alt="alt")
+
+              .row
+                p <i>Concentración intermedia = Concentración inicial -( Concentración inicial x eficiencia equipo B/100)</i>
+
+                p <i>Concentración intermedia = 500 mg/l -( 500 mg/l  x  0,5)</i>
+
+                p <i>Concentración intermedia = 500 mg/l - 250 mg/l</i>
+
+                p <i>Concentración intermedia = 250 mg/l</i>
 
       p El efluente, después de los dos equipos para el tratamiento, tendrá una concentración de 250 mg/l de contaminante.
+
 
     .row.bg1-tema2.align-items-center.mb-5(data-aos="fade-right")
       h4.mt-3 Equipos o procesos de pretratamiento
@@ -385,7 +423,7 @@
             .col-lg-11
               h4.text-center Lodos activados
 
-              p.mb-0.text-center De acuerdo con el Ministerio de Medio Ambiente (2002), busca lograr en un tanque principal o aireador, la aglomeración de los microorganismos, y el suministro de aire por medios artificiales, bien sea por inyección de aire o de oxígeno puro. Los aglomerados están formados por organismos, principalmente bacterias heterofílicas, y por material coloidal orgánico e inorgánico. Aunque las bacterias son los principales agentes para la remoción de la materia orgánica, los aglomerados en sí son parte fundamental del proceso de descontaminación. Casi 40 % de la carga orgánica presente en las aguas es absorbida por interacciones iónicas y queda entrampada en el floc. Luego es hidrolizada por enzimas extracelulares antes de ser absorbida y metabolizada por las bacterias. (p.76).En este tipo de sistema se deben controlar los olores, caudales, sistema de aireación, lodos y espumas entre otros.
+              p.mb-0.text-center De acuerdo con el Ministerio de Medio Ambiente (2002), busca lograr en un tanque principal o aireador, la aglomeración de los microorganismos, y el suministro de aire por medios artificiales, bien sea por inyección de aire o de oxígeno puro. Los aglomerados están formados por organismos, principalmente bacterias heterofílicas, y por material coloidal orgánico e inorgánico. Aunque las bacterias son los principales agentes para la remoción de la materia orgánica, los aglomerados en sí son parte fundamental del proceso de descontaminación. Casi 40 % de la carga orgánica presente en las aguas es absorbida por interacciones iónicas y queda entrampada en el floc. Luego es hidrolizada por enzimas extracelulares antes de ser absorbida y metabolizada por las bacterias. (p.76). En este tipo de sistema se deben controlar los olores, caudales, sistema de aireación, lodos y espumas entre otros.
 
     .row.justify-content-center.align-items-center
       .col-8.col-lg-2
@@ -423,10 +461,10 @@
             .list__item__icon1
               img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
           .list__txt
-            h3.mb-0.tv.margin-icon Sistemas aerobios
+            h3.mb-0.tv.margin-icon Sistemas anaerobios
 
     .row.justify-content-center.align-items-center.mb-5
-      p Su fundamento es la capacidad de ciertos organismos para desdoblar la materia orgánica en la presencia de oxígeno, por lo cual estos sistemas deben proporcionar el oxígeno necesario como las demás condiciones para el crecimiento y reproducción de estos organismos. Algunos procesos son:
+      p Son procesos de degradación de materia orgánica en ausencia de oxígeno; en este caso, los organismos utilizados no requieren oxígeno para su desarrollo y reproducción. Dentro de los procesos de este tipo se pueden encontrar:
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -457,7 +495,7 @@
             .bottomCircle.mb-5
               figure
                 img(src="@/assets/curso/temas/tema2/img23.svg", alt="alt")
-            h4 Función informativa
+            h4 Filtración
             p Usando medios filtrantes como el carbón activado, dado que es altamente absorbente, logra remover olores y sustancias tóxicas, además que en este caso es usado para remover materia orgánica disuelta.
         
         .col-lg-4.mb-4.mb-lg-0
@@ -491,7 +529,7 @@
     separador
 
     #t_2_3.titulo-segundo.color-acento-botones
-       h2 2.3. Tasa retributiva
+       h2 2.3 Tasa retributiva
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -521,14 +559,14 @@
               .list__item__icon2
                 img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
             .list__txt
-              p.mb-0.tv.margin-icon DBO = $131,71 por Kg
+              p.mb-0.tv.margin-icon <i>DBO = $131,71 por Kg</i>
 
           .list.mb-3(data-aos="fade-left")
             .list__item
               .list__item__icon2
                 img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
             .list__txt
-              p.mb-0.tv.margin-icon SST= $ 56, 09 por Kg
+              p.mb-0.tv.margin-icon <i>SST= $ 56, 09 por Kg</i>
 
           .row
             .col-lg-10          
@@ -539,14 +577,14 @@
                   .list__item__icon2
                     img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
                 .list__txt
-                  p.mb-0.tv.margin-icon DBO = 107, 7 mg/L con una carga mensual de 12.525 Kg/mes
+                  p.mb-0.tv.margin-icon <i>DBO = 107, 7 mg/L con una carga mensual de 12.525 Kg/mes</i>
 
               .list.mb-3(data-aos="fade-left")
                 .list__item
                   .list__item__icon2
                     img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
                 .list__txt
-                  p.mb-0.tv.margin-icon SST= 3887 mg/L con una carga mensual de 45.257 Kg/mes
+                  p.mb-0.tv.margin-icon <i>SST= 3887 mg/L con una carga mensual de 45.257 Kg/mes</i>
 
 
     separador

@@ -12,7 +12,6 @@
     .row.justify-content-center.align-items-center.mb-5
       p En este componente se analizarán los conceptos básicos sobre la operación de sistemas y unidades de tratamiento de vertimientos, partiendo desde la identificación del origen de los mismos, hasta los diferentes tratamientos base existente, ampliando conocimientos de matemáticas e hidráulica básica y las operaciones inherentes en la práctica de estos conocimientos, los invitamos a ver la siguiente presentación. 
 
-      p De acuerdo con el Banco Interamericano de Desarrollo y la Asociación Nacional de Industriales (ANDI) (1997), en su documento manual para la caracterización de aguas residuales industriales presenta las siguientes definiciones:
 
     .row.justify-content-center.align-items-center.mb-5
       SlyderB.mb-5(:datos="datosSlyder")
@@ -35,7 +34,7 @@ export default {
       },
       {
         texto:
-          'a su vez, que se generen más aspectos ambientales como los vertimientos productos (resultantes del uso de ese recurso hídrico en diferentes actividades); sin embargo, menos del 5 % de las aguas de alcantarillado de las ciudades reciben tratamiento.',
+          'A su vez, que se generen más aspectos ambientales como los vertimientos productos (resultantes del uso de ese recurso hídrico en diferentes actividades); sin embargo, menos del 5 % de las aguas de alcantarillado de las ciudades reciben tratamiento.',
         imagen: require('@/assets/curso/temas/introduccion/img2.svg'),
       },
       {

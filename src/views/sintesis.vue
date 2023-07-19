@@ -2,10 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 Dentro de la salud pública son necesarias las estrategias de intervención, con el fin de mejorar de manera permanente el sistema de salud hacia las comunidades, lo que hace que se evalúe y mejore siempre la atención y con esto mejore su calidad de vida. Por lo que el componente formativo desarrolla los temas que se esquematizan a continuación.
+    p.mb-5 Con el estudio del presente componente se dan a conocer los diferentes sistemas y unidades de tratamiento de agua residual, a su vez podrán identificar desde las bases teóricas hasta los cálculos aplicativos más específicos en el tratamiento de aguas residuales, basado en las normas y procedimientos técnicos.
 
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-12.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto

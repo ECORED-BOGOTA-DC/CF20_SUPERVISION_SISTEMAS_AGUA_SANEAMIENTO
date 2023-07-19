@@ -9,7 +9,7 @@
           figure
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
+        .titulo-segundo.color-acento-botones
           h2 El genio de la verdad
         p.mb-4 Aplicar las bases teóricas en la realización de cálculos con el fin de diferenciar los sistemas y las unidades de tratamiento de agua residual.
         .tarjeta.actividad.p-3

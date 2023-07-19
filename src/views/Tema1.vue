@@ -8,7 +8,7 @@
       h1 Fundamentos básicos para el tratamiento de aguas residuales
       
     .row.justify-content-center.align-items-center.mb-5
-      .tarjeta.tarjeta-azul.p-4
+      .bg-fondo1-tm1.p-4
         .row 
           .col-lg-7
             .hr-azul
@@ -19,8 +19,6 @@
                     p Conocer la cantidad de agua residual que se va a tratar en una Planta de Tratamiento de Aguas Residuales (PTAR) es de vital importancia, debido a que a partir de esta información se tomarán decisiones tales como la cantidad de productos químicos, el tamaño de la planta, la cantidad de personas a contratar y en general los costos de operación de la misma.         
 
           .col-lg-5
-            figure
-              img(src='@/assets/curso/temas/tema1/img1.svg', alt='Texto que describa la imagen').img1-tm1
 
 
     separador
@@ -42,8 +40,8 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen')
 
-              .tarjeta.color-adicional-2.p-3(x="93.3%" y="48.3%" numero="")
-                p.texto-blanco Volumen: es el espacio que ocupa el agua residual.
+              .tarjeta.color-adicional-2.p-4(x="93.3%" y="48.3%" numero="")
+                p.texto-blanco Es el espacio que ocupa el agua residual.
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -51,9 +49,8 @@
 
       .col-lg-10
         .titulo-sexto.color-figura.mb-5
-          h5.mb-0 Figura 1.
-          br
-          i Representación de recipiente cúbico con medidas en metros
+          h5.mb-0 Figura 1
+          | Representación de recipiente cúbico con medidas en metros
 
       .col-8.col-lg-3.mb-5
         figure
@@ -63,9 +60,9 @@
       
       .col-lg-4
         .tarjeta.tarjeta-amarilla.p-4
-          p Volumen = L x L x L
-          p Volumen = 1m x 1m x 1m
-          p.mb-0 Volumen = 1m<sup>3</sup>
+          p <i>Volumen = L x L x L</i>
+          p <i>Volumen = 1m x 1m x 1m</i>
+          p.mb-0 <i>Volumen = 1m<sup>3</sup></i>
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -73,9 +70,8 @@
 
       .col-lg-10
         .titulo-sexto.color-figura.mb-5
-          h5.mb-0 Figura 2.
-          br
-          i Representación del recipiente cúbico en centímetros
+          h5.mb-0 Figura 2
+          | Representación del recipiente cúbico en centímetros
 
       .col-8.col-lg-3.mb-4
         figure
@@ -85,9 +81,9 @@
       
       .col-lg-4
         .tarjeta.tarjeta-amarilla.p-4
-          p Volumen = L x L x L
-          p Volumen = 100 cm x 100 cm x 100 cm
-          p.mb-0 Volumen = 1'000.000 cm<sup>3</sup>
+          p <i>Volumen = L x L x L</i>
+          p <i>Volumen = 100 cm x 100 cm x 100 cm</i>
+          p.mb-0 <i>Volumen = 1'000.000 cm<sup>3</sup></i>
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -97,9 +93,8 @@
 
       .col-lg-10
         .titulo-sexto.color-figura.mb-5
-          h5.mb-0 Figura 3.
-          br
-          i Representación del recipiente cúbico en pies
+          h5.mb-0 Figura 3
+          | Representación del recipiente cúbico en pies
 
       .col-8.col-lg-3.mb-4
         figure
@@ -109,16 +104,16 @@
       
       .col-lg-6
         .tarjeta.tarjeta-amarilla.p-4
-          p Volumen = L x L x L
-          p Volumen = 3.28084 pies x 3.28084 pies x 3.28084 pies
-          p.mb-0 Volumen = 35.31 pies<sup>3</sup>
+          p <i>Volumen = L x L x L</i>
+          p <i>Volumen = 3.28084 pies x 3.28084 pies x 3.28084 pies</i>
+          p.mb-0 <i>Volumen = 35.31 pies<sup>3</sup></i>
 
 
     .row.justify-content-center.align-items-center.mb-5
       p.mb-4 Así se puede evidenciar que:
       .col-lg-6
         .tarjeta.tarjeta-azul2.p-2
-          p.text-center.mb-0 #[b Volumen del cubo =] 1m<sup>3</sup> = 1'000.000 cm3 = 35.31 pies<sup>3</sup>  
+          p.text-center.mb-0 #[i #[b Volumen del cubo =]] <i>1m<sup>3</sup> = 1'000.000 cm3 = 35.31 pies<sup>3</sup></i>
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -136,7 +131,7 @@
           .col-lg-9
             .tarjeta.tarjeta-amarilla2.p-5.mb-4
               .row.justify-content-center.align-items-center
-                p Volumen agua en pies cúbicos = Volumen de agua en m<sup>3</sup> x factor de conversión     
+                p <i>Volumen agua en pies cúbicos = Volumen de agua en m<sup>3</sup> x factor de conversión</i>    
 
         .row.justify-content-center.align-items-center.mb-3
           .col-8.col-lg-3.mb-4
@@ -147,7 +142,7 @@
             .tarjeta.tarjeta-amarilla2.p-5.mb-4
               .row.justify-content-center.align-items-center
                 .col-lg-7
-                  p Volumen agua en pies cúbicos =
+                  p <i>Volumen agua en pies cúbicos =</i>
                 .col-lg-5
                   figure
                     img(src='@/assets/curso/temas/tema1/img7-1.svg', alt='Texto que describa la imagen').img7-tm1              
@@ -160,10 +155,10 @@
           .col-lg-9
             .tarjeta.tarjeta-amarilla2.p-5.mb-4
               .row.justify-content-center.align-items-center
-                p Volumen agua en pies cúbicos = 54.737,73 pies3
+                p <i>Volumen agua en pies cúbicos = 54.737,73 pies3</i>
 
     .row.mb-5
-      p Presentamos el desarrollo un ejercicio utilizando la fórmula de volumen tanque, para determinar su capacidad, analicemos con atención. 
+      p Presentamos el desarrollo de un ejercicio utilizando la fórmula de volumen tanque, para determinar su capacidad, analicemos con atención. 
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -177,7 +172,7 @@
 
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-6
-              p.texto-blanco.text-center Volumen tanque = 754 pies<sup>3</sup> x
+              p.texto-blanco.text-center <i>Volumen tanque = 754 pies<sup>3</sup> x</i>
             
             .col-8.col-lg-3
               figure
@@ -185,8 +180,8 @@
 
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-5
-              figure
-                img(src='@/assets/curso/temas/tema1/img10.svg', alt='Texto que describa la imagen')
+              .tarjeta.tarjeta-naranja.p-2
+                h5.mb-0.text-center <i><b style= "color:#0D6A3E;">Volumen tanque = 21'353.724 cm<sup>3</sup></b></i>
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -220,21 +215,19 @@
           h5.texto-blanco Solución:
 
           .row.justify-content-center.align-items-center.mb-5
-            p.texto-blanco.text-center.mb-5 Masa en kilogramos = masa en libras  x factor de conversión
+            p.texto-blanco.text-center.mb-5 <i>Masa en kilogramos = masa en libras  x factor de conversión</i>
 
             .col-lg-6
-              p.texto-blanco.text-center Masa en kilogramos = 3000 lb  x
+              p.texto-blanco.text-center <i>Masa en kilogramos = 3000 lb  x</i>
             
             .col-8.col-lg-3
               figure
                 img(src='@/assets/curso/temas/tema1/img13.svg', alt='Texto que describa la imagen').img9-tm1
 
-          .row.mb-5
-            .row
-            .col-lg-3
+          .row.justify-content-center.align-items-center.mb-5
             .col-lg-5
-              figure
-                img(src='@/assets/curso/temas/tema1/img14.svg', alt='Texto que describa la imagen')            
+              .tarjeta.tarjeta-naranja.p-2
+                h5.mb-0.text-center <i><b style= "color:#0D6A3E;">Masa en kilogramos = 1360,78 kg</b></i>          
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -252,7 +245,7 @@
             p Para consultarlo debe ingresar a la página de bibliotecas del SENA y posteriormente a bases de datos, una vez allí, consultar E-books y buscar: Física: conceptos y aplicaciones y seleccionar el autor, Paul Tippens.
 
     .row.bg1-tema1.align-items-center.mb-5(data-aos="fade-right")
-      h4.text-white.mt-3 Factores de conversión
+      h4.text-white.mt-3 Unidades de medida
 
     .row.bg-parrafo.align-items-center.mb-5(data-aos="fade-right")
       .col-1
@@ -263,9 +256,11 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
+      h4.text-center.mb-4 Métodos de medición de caudal
+
       .col-lg-4.mb-3
         figure
-          img(src='@/assets/curso/temas/tema1/img16.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img16.png', alt='Texto que describa la imagen')
 
       .col-lg-4
         p Existen tres métodos para medir el caudal, tanto a la entrada como a la salida de la PTAR. De acuerdo con las condiciones, la cantidad de agua y la geometría de las tuberías, equipos o accesorios por los que fluye el agua, se debe escoger el método. 
@@ -289,7 +284,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-4
         .row.bg3-tema1.align-items-center.mb-5(data-aos="fade-right")
-          h4.text-center.text-white.mt-3 Caudal volumétrico (Q) =  V/t
+          h4.text-center.text-white.mt-3 <i>Caudal volumétrico (Q) =  V/t</i>
 
       .col-lg-10.mb-4
         p Por ejemplo, ¿cuál es el caudal volumétrico en litros por segundo de una PTAR que vierte 0,450 metros cúbicos de agua residual en 2 minutos?
@@ -314,7 +309,7 @@
           .row.justify-content-center.align-items-center.mb-4
 
             .col-7.col-lg-9
-              p.text-center.texto-blanco Caudal volumétrico (Q)=
+              p.text-center.texto-blanco <i>Caudal volumétrico (Q)=</i>
             
             .col-5.col-lg-3
               figure
@@ -323,7 +318,7 @@
           .row.justify-content-center.align-items-center.mb-4
 
             .col-6.col-lg-9
-              p.text-center.texto-blanco Caudal volumétrico (Q)=
+              p.text-center.texto-blanco <i>Caudal volumétrico (Q)=</i>
             
             .col-6.col-lg-3
               figure
@@ -332,7 +327,7 @@
           .row.justify-content-center.align-items-center.mb-5
             
             .col-7.col-lg-6
-              p.text-center.texto-blanco Caudal volumétrico (Q)=  0,5
+              p.text-center.texto-blanco <i>Caudal volumétrico (Q)= 0,5</i>
             
             .col-5.col-lg-3
               figure
@@ -348,7 +343,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-4
         .row.bg3-tema1.align-items-center.mb-5(data-aos="fade-right")
-          h4.text-center.text-white.mt-3 Caudal másico (▁(Q)) = m/t 
+          h4.text-center.text-white.mt-3 <i>Caudal másico (▁(Q)) = m/t</i>
 
       .col-lg-10
         p Por ejemplo, se requiere determinar el caudal que tendrá un equipo que contiene 450 kg de agua si se le abre una llave inferior para desocuparse en 250 segundos.
@@ -359,34 +354,38 @@
           .row.justify-content-center.align-items-center
             .col-10.col-lg-4.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img21.svg', alt='Texto que describa la imagen').img21-tm1
+                img(src='@/assets/curso/temas/tema1/img21.png', alt='Texto que describa la imagen').img21-tm1
 
             .col-lg-8
               .row.justify-content-center.align-items-center
                 .col-8.col-lg-5
-                  p Caudal másico (Q) =
+                  p <i>Caudal másico (Q) =</i>
                 
                 .col-4.col-lg-5.mb-3
-                  figure
+                  figure.mt-3
                     img(src='@/assets/curso/temas/tema1/img22.svg', alt='Texto que describa la imagen').img22-tm1
 
               .row.justify-content-center.align-items-center
                 .col-7.col-lg-5
-                  p Caudal másico (Q) =
+                  p <i>Caudal másico (Q) =</i>
                 
                 .col-5.col-lg-5.mb-3
-                  figure
+                  figure.mt-3
                     img(src='@/assets/curso/temas/tema1/img23.svg', alt='Texto que describa la imagen').img23-tm1
 
               .row.justify-content-center.align-items-center
                 .col-7.col-lg-5
-                  p Caudal másico (Q) =
+                  p <i>Caudal másico (Q) =</i>
                 
                 .col-5.col-lg-5
-                  p 1.8 kg/s
+                  p <i>1.8 kg/s</i>
 
-    .row.bg1-tema1.align-items-center.mb-5(data-aos="fade-right")
-      h4.text-white.mt-3 Método directo
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        p Debido a que para hacer medición de flujos másicos es necesario el uso de balanzas, esta práctica no es tan utilizada en la operación de PTAR.
+
+    .row.bg4-tema1.align-items-center.mb-5(data-aos="fade-right")
+      h4.text-white.mt-3 Método de área velocidad
 
     .row.justify-content-center.align-items-center.mb-5
       p Este método se utiliza cuando el agua está siendo conducida a través de una canal, o tubería con forma geométrica definida; se basa en el principio de continuidad, que establece que el caudal es igual a la velocidad del agua por el área del corte transversal.
@@ -405,11 +404,10 @@
       .col-lg-8
         p El caudal de la tubería depende del área y la velocidad del agua; por un lado, el área transversal que tendrá el agua será igual al área interna del tubo, por otro lado, para calcular la velocidad del agua se utilizan trazadores químicos o colorantes donde desde un punto determinado se pigmenta y metros más adelante se lleva control del tiempo en el cual el agua pigmentada empieza a aparecer, de este modo, conociendo la distancia que recorrió el agua y el tiempo que tardó en llegar el pigmento al segundo punto, se puede calcular la velocidad.
 
-        p Por ejemplo, si se desea calcular el caudal que fluye en una tubería de diámetro 0,1 metro, donde el agua se transporta a una velocidad de 5 m/s. 
+        p Por ejemplo, si se desea calcular el caudal que fluye en una tubería de diámetro 0,1 metros, donde el agua se transporta a una velocidad de 5 m/s. 
 
-        p Lo primero que se debe hacer es calcular el área de la sección transversal de la tubería de diámetro 0,1 metro; esto se realiza a través de la ecuación del área del círculo:
+        p Lo primero que se debe hacer es calcular el área de la sección transversal de la tubería de diámetro 0,1 metros; esto se realiza a través de la ecuación del área del círculo:
 
-      p.mt-4 Debido a que para hacer medición de flujos másicos es necesario el uso de balanzas, esta práctica no es tan utilizada en la operación de PTAR.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -417,7 +415,7 @@
           .row.justify-content-center.align-items-center
             .col-10.col-lg-5.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img21.svg', alt='Texto que describa la imagen').img21_2-tm1
+                img(src='@/assets/curso/temas/tema1/img21.png', alt='Texto que describa la imagen').img21_2-tm1
 
             .col-lg-7
               .row.justify-content-center.align-items-center.mb-3
@@ -443,9 +441,9 @@
                 
                   p.mt-5 Posteriormente, se calcula el caudal a partir de la ecuación de continuidad:
 
-                  p.text-center.mb-1 Q = vA
-                  p.text-center.mb-1 Q = (5 m/s) (0,00785m2)
-                  p.text-center.mb-1 Q = 0,0392 m<sup>3</sup>/s
+                  p.text-center.mb-1 <i>Q = vA</i>
+                  p.text-center.mb-1 <i>Q = (5 m/s) (0,00785m2)</i>
+                  p.text-center.mb-1 <i>Q = 0,0392 m<sup>3</sup>/s</i>
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -457,7 +455,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .bg-tablero2.p-5
-          .row.justify-content-center.mb-3
+          .row.mb-3
             .col-lg-2
             .col-lg-4
               i.texto-blanco Área transversal del tubo =
@@ -466,7 +464,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img27.svg', alt='Texto que describa la imagen').img27-tm1
 
-          .row.justify-content-center.mb-3
+          .row.mb-3
             .col-lg-2
             .col-lg-4
               i.texto-blanco Área transversal del tubo =
@@ -485,11 +483,11 @@
             .col-10.col-lg-6
               p.texto-blanco Posteriormente, se calcula el caudal a partir de la ecuación de continuidad:
 
-              p.texto-blanco.text-center.mb-0 Q = vA
+              p.texto-blanco.text-center.mb-0 <i>Q = vA</i>
 
-              p.texto-blanco.text-center.mb-0 Q = (8 m/s) (0,001767 m<sup>2</sup>)
+              p.texto-blanco.text-center.mb-0 <i>Q = (8 m/s) (0,001767 m<sup>2</sup>)</i>
 
-              p.texto-blanco.text-center.mb-0 #[b Q = 0,1413 m3/s]
+              p.texto-blanco.text-center.mb-0 #[b #[i Q = 0,1413 m3/s]]
 
     .row.justify-content-center.align-items-center
       .col-lg-11
@@ -500,7 +498,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-4
         figure
-          img(src='@/assets/curso/temas/tema1/img29.svg', alt='Texto que describa la imagen')      
+          img(src='@/assets/curso/temas/tema1/img29.png', alt='Texto que describa la imagen')      
 
       .col-lg-7
         p  El principio que se utiliza para determinar el caudal en una canaleta es el de área-velocidad, se debe conocer la geometría de la canaleta por donde está fluyendo el agua para poder determinar el caudal; en este caso, al agua tener contacto con la superficie, se pueden utilizar métodos visuales para determinar la velocidad con la que está fluyendo, una prueba muy común es por flotabilidad, donde se suelta un objeto que no se hunde, se mide una distancia determinada y se toma el tiempo que tarda el objeto en ir desde el punto inicial hasta el punto de referencia. El caudal en las canaletas se puede calcular así:
@@ -523,27 +521,30 @@
 
                 p.mb-4 Posteriormente, se calcula el caudal a partir de la ecuación de continuidad:
 
-                p.text-center.mb-1 Q = vA
-                p.text-center.mb-1 Q = (4 m/s) (0,1 m2)
-                b.text-center.mb-1 Q = 0,4 m3/s
+                p.text-center.mb-1 <i>Q = vA</i>
+                p.text-center.mb-1 <i>Q = (4 m/s) (0,1 m2)</i>
+                b.text-center.mb-1 <i>Q = 0,4 m3/s</i>
 
+    .row.justify-content-center.align-items-center.mb-5
+      h4 Ejercicio ejemplo:
+      p ¿Cuál es el caudal máximo que se puede transportar en una canaleta cuadrada de lado 1,5 metros a una velocidad de 5 m/s?
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
-        p.mb-4 Área transversal de la canaleta = Lado x Lado
-        p.mb-4 Área transversal de la canaleta = (1,5 m) x (1,5 m)
-        p.mb-4 Área transversal de la canaleta = 2.25 m2
+        p.mb-4 <i>Área transversal de la canaleta = Lado x Lado</i>
+        p.mb-4 <i>Área transversal de la canaleta = (1,5 m) x (1,5 m)</i>
+        p.mb-4 <i>Área transversal de la canaleta = 2.25 m2</i>
       
         .cajon.color-secundario.p-3
           p.mb-0 Posteriormente, se calcula el caudal a partir de la ecuación de continuidad:
 
-        p.text-center Q = vA
-        p.text-center Q = (5 m/s) (2,25 m2)
-        p.text-center <b>Q = 11,25 m<sup>3</sup>/s</b>
+        p.text-center <i>Q = vA</i>
+        p.text-center <i>Q = (5 m/s) (2,25 m2)</i>
+        p.text-center <i><b>Q = 11,25 m<sup>3</sup>/s</b></i>
 
       .col-8.col-lg-4
         figure
-          img(src='@/assets/curso/temas/tema1/img31.svg', alt='Texto que describa la imagen')        
+          img(src='@/assets/curso/temas/tema1/img31.png', alt='Texto que describa la imagen')        
 
     .row.bg4-tema1.align-items-center.mb-5(data-aos="fade-right")
       h4.text-white.mt-3 Método de la sección contraída
@@ -558,9 +559,8 @@
         p De acuerdo con Pérez (2005), en su manual de prácticas de laboratorio de hidráulica define un vertedero como un dique o pared que presenta una escotadura de forma regular, a través de la cual fluye una corriente líquida como se indica a continuación en las figuras 4 y 5:
 
         .titulo-sexto.color-figura.mb-5
-          h5.mb-0 Figura 4.
-          br
-          i Flujos a través de vertederos
+          h5.mb-0 Figura 4
+          | Flujos a través de vertederos
 
       .col-lg-8.mb-4
         figure
@@ -572,9 +572,8 @@
         p.mb-5 De acuerdo con el tipo de geometría que tiene el vertedero, se han desarrollado experimentalmente ecuaciones que permiten determinar el caudal de acuerdo con la altura que obtiene el agua. De este modo se tiene:
 
         .titulo-sexto.color-figura.mb-5
-          h5.mb-0 Figura 5.
-          br
-          i Medidores de flujo
+          h5.mb-0 Figura 5
+          | Medidores de flujo
 
       .col-lg-6.mb-5
         figure
@@ -637,9 +636,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .titulo-sexto.color-figura.mb-5
-          h5.mb-0 Figura 6.
-          br
-          i Partes de un medidor Parshall
+          h5.mb-0 Figura 6
+          | Partes de un medidor Parshall
 
       .col-lg-8
         figure.mb-5
@@ -729,9 +727,8 @@
 
       .col-lg-10
         .titulo-sexto.color-figura.mb-5
-          h5.mb-0 Figura 7.
-          br
-          i Configuración sistema hídrico
+          h5.mb-0 Figura 7
+          | Configuración sistema hídrico
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -766,7 +763,10 @@
         .tarjeta-amarilla.p-4.mb-3
           p.mb-0 El sistema de drenaje funciona a través del alcantarillado público, compuesto por conductos cerrados y canales abiertos, que recogen, transportan y disponen las aguas residuales y lluvias de la ciudad a las plantas de tratamiento o a los cuerpos de agua, según sea el caso. El alcantarillado público de la empresa presta el servicio de dos tipos de alcantarillado, el sanitario o de aguas residuales y el pluvial o de aguas lluvias.
 
-        p Fuente: Hace falta la fuente
+    .row.justify-content-center.align-items-center.mb-5
+      p El sistema hídrico, es el conjunto de los cuerpos de agua naturales y/o artificiales, que hacen parte del drenaje de una ciudad, municipio o región, estos incluyen tanto la ronda hidráulica como su zona de manejo y preservación ambiental; los elementos que lo conforman son los humedales, ríos, quebradas y canales pertenecientes a las cuencas y su eje articulador.
+
+      p En el caso de Bogotá, por ejemplo, el sistema hídrico se encuentra articulado por 13 humedales, 4 ríos, y más de 150 quebradas y canales pertenecientes a las cuencas Torca, Salitre, Fucha, Tunjuelo y su eje articulador el Río Bogotá.
 
     .row.mb-5
       .col-lg-7
@@ -780,7 +780,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-3
         figure
-          img(src='@/assets/curso/temas/tema1/img47.svg', alt='Texto que describa la imagen')        
+          img(src='@/assets/curso/temas/tema1/img47.png', alt='Texto que describa la imagen')        
 
       .col-lg-8
         p  Aunque suele indicarse que el 80% del uso del agua es para fines agrícolas, en los cuales se toma el agua usualmente de forma directa del sistema hídrico y posteriormente se devuelve al mismo con otras condiciones, en los últimos años se ha indicado que ese 20% que es para ciudades e industrias ha ido aumentando; aun así, aunque sea en menor proporción que el uso agrícola, en ese aproximado de 20% se centran la mayor cantidad de problemáticas asociadas al recurso, comenzando por la proyección de uso del mismo por crecimiento poblacional.
@@ -827,9 +827,9 @@
           
             .col-md-5
               figure
-                img(src='@/assets/curso/temas/tema1/img49.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img49.png', alt='Texto que describa la imagen')
 
-          .row.p-4.p-lg-5(titulo="Gestión de Servicios sociales para el desarrollo humano ")
+          .row.p-4.p-lg-5(titulo="Punto de descarga")
             .col-md-7.mb-4.mb-md-0
               p Uno de los elementos que se debe tener en cuenta al momento de hablar de vertimientos es el punto de descarga, que es aquel donde convergen una o varias redes de aguas residuales en un receptor, ya sea un cauce o alcantarillado. Dicha descarga puede provenir de uno o varios procesos para formar una sola descarga total.
           
@@ -854,9 +854,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .titulo-sexto.color-figura.mb-5
-          h5.mb-0 Figura 8.
-          br
-          i Relación del agua residual con los cuerpos de agua
+          h5.mb-0 Figura 8
+          | Relación del agua residual con los cuerpos de agua
 
       .col-lg-8
         figure
@@ -898,9 +897,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .titulo-sexto.color-figura.mb-5
-          h5.mb-0 Figura 9.
-          br
-          i Tipos de descargas de agua residual  
+          h5.mb-0 Figura 9
+          | Tipos de descargas de agua residual  
 
       .col-8.col-lg-3.mb-3
         figure
@@ -979,9 +977,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .titulo-sexto.color-figura.mb-5
-          h5.mb-0 Figura 10.
-          br
-          i Cálculo de concentración en la mezcla de aguas residuales
+          h5.mb-0 Figura 10
+          | Cálculo de concentración en la mezcla de aguas residuales
 
       .col-lg-7.mb-5
         figure
@@ -1022,9 +1019,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .titulo-sexto.color-figura.mb-5
-          h5.mb-0 Figura 11.
-          br
-          i Tanques de concentración
+          h5.mb-0 Figura 11
+          | Tanques de concentración
 
       .col-lg-7.mb-5
         figure
@@ -1045,14 +1041,14 @@
       p.mb-4 La carga contaminante, depende de la masa del mismo; sin embargo, para conocer la masa de contaminante es necesario hacer los análisis de laboratorio, estos análisis dan como resultado la concentración, así pues, se debe generar una relación entre la concentración obtenida como resultado de los ensayos de laboratorios y la carga contaminante con la cual se trabaja en la PTAR:
 
       .col-lg-8.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema1/img64.svg', alt='alt')
+        .tarjeta-gris2.p-1
+          p.mb-0.text-center <i>Carga contaminante = concentración contaminante x caudal</i>
 
       p.mb-4 Haciendo un análisis dimensional se tiene que la carga contaminante tiene unidades de masa sobre tiempo:
 
       .col-lg-8.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema1/img65.svg', alt='alt')
+        .tarjeta-gris2.p-1
+          p.mb-0.text-center <i>Carga contaminante (mg/s) = concentración contaminante (mg/l)  x caudal (l/s)</i>
 
       p Cuando se trabaja en PTAR municipales, las unidades de miligramos son muy pequeñas para expresar las cantidades de contaminantes removidas, al igual que los segundos son intervalos de tiempo muy pequeños, para estos casos se plantea trabajar con la carga contaminante diaria que se expresa en Kg así:
 
@@ -1069,14 +1065,14 @@
       .col-lg-10
         .bg-tablero3.p-5
           .col-lg-10.mb-4
-            p.text-center Carga contaminante (mg/s) = concentración contaminante (mg/l)  x caudal (l/s)
-            p.text-center Carga contaminante (mg/s) = 300 mg/l  x 5 l/s
-            p.mb-3.text-center Carga contaminante (mg/s) = 1500 mg/s 
+            p.text-center <i>Carga contaminante (mg/s) = concentración contaminante (mg/l)  x caudal (l/s)</i>
+            p.text-center <i>Carga contaminante (mg/s) = 300 mg/l  x 5 l/s</i>
+            p.mb-3.text-center <i>Carga contaminante (mg/s) = 1500 mg/s</i>
             p.text-center Una vez se conoce la carga contaminante en miligramos por segundo se procede a calcularse en kilogramos por horas para poder relacionarse con el tiempo de operación útil del sedimentador.
           
           .row.mb-4
             .col-lg-4
-              p Carga contaminante (kg/h) =
+              p <i>Carga contaminante (kg/h) =</i>
 
             .col-lg-5
               figure
@@ -1084,7 +1080,7 @@
 
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-4
-              p Carga contaminante (kg/h) = 
+              p <i>Carga contaminante (kg/h) =</i>
 
             .col-4.col-lg-2
               figure
@@ -1095,7 +1091,7 @@
 
           .row.justify-content-center.align-items-center
             .col-lg-6
-              p.text-center Tiempo de operación máxima del sedimentador =
+              p.text-center <i>Tiempo de operación máxima del sedimentador =</i>
 
             .col-8.col-lg-3
               figure
@@ -1103,7 +1099,7 @@
 
 
           .col-lg-10.mb-lg-4
-            p.text-center Tiempo de operación máxima del sedimentador = 18,52 horas
+            p.text-center <i>Tiempo de operación máxima del sedimentador = 18,52 horas</i>
 
     .row.justify-content-center.align-items-center.mb-5
       p.mb-5 Cuando se quieren hacer mezclas de aguas residuales, las cargas contaminantes se suman, como se presenta en el siguiente ejemplo:
@@ -1118,9 +1114,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .titulo-sexto.color-figura.mb-5
-          h5.mb-0 Figura 12.
-          br
-          i Caudales
+          h5.mb-0 Figura 12
+          | Caudales
 
       .col-lg-7
         figure
@@ -1158,25 +1153,25 @@
       .col-lg-10
         .bg-tablero4.p-3.p-lg-5
           .col-lg-8.mb-4
-            p.text-center.texto-blanco Caudal en tanque I = Caudal en tanque G + Caudal en tanque H
+            p.text-center.texto-blanco <i>Caudal en tanque I = Caudal en tanque G + Caudal en tanque H</i>
 
-            p.text-center.texto-blanco Caudal en tanque I = 4 l/s  + 3 l/s
+            p.text-center.texto-blanco <i>Caudal en tanque I = 4 l/s  + 3 l/s</i>
             
-            p.text-center.texto-blanco Caudal en tanque I =7 l/s
+            p.text-center.texto-blanco <i>Caudal en tanque I =7 l/s</i>
             
             p.texto-blanco Ahora sí se puede calcular el volumen de agua que ha ingresado al tanque I, una vez transcurren los cinco minutos:
             
-            p.text-center.texto-blanco Volumen en tanque I = Caudal en tanque I x tiempo
+            p.text-center.texto-blanco <i>Volumen en tanque I = Caudal en tanque I x tiempo</i>
             
-            p.text-center.texto-blanco Volumen en tanque I = 7 l/s x 300 s
+            p.text-center.texto-blanco <i>Volumen en tanque I = 7 l/s x 300 s</i>
             
-            p.text-center.texto-blanco Volumen en tanque I = 2100 l
+            p.text-center.texto-blanco <i>Volumen en tanque I = 2100 l</i>
             
             p.texto-blanco Una vez se conoce la masa de contaminante presente en el tanque y el volumen, se procede a calcular la concentración de contaminante.
             
             .row.justify-content-center.align-items-center.mb-3
               .col-lg-7
-                p.texto-blanco Concentración contaminante tanque I = 
+                p.texto-blanco <i>Concentración contaminante tanque I =</i>
               
               .col-8.col-lg-5.mb-2
                 figure
@@ -1184,7 +1179,7 @@
 
             .row.justify-content-center.align-items-center
               .col-lg-7
-                p.texto-blanco Concentración contaminante tanque I = 
+                p.texto-blanco <i>Concentración contaminante tanque I =</i> 
               
               .col-8.col-lg-5.mb-2           
                 figure
