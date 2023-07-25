@@ -15,7 +15,7 @@
 
       .col-lg-5
         figure
-          img(src='@/assets/curso/temas/tema2/img1.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema2/img1.svg', alt='Imágen decorativa')
 
 
     separador
@@ -56,7 +56,7 @@
         .list.mb-4(data-aos="fade-down")
           .list__item
             .list__item__icon1
-              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
           .list__txt
             h3.mb-0.tv.margin-icon Rigor subsidiario 
 
@@ -87,7 +87,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema2/img7.svg", alt="alt")
+              img(src="@/assets/curso/temas/tema2/img7.svg", alt="Imágen decorativa")
           .crd_hover_txt--body
             h4.mb-3.text-center Tratamientos físicos
             p.mb-5 Son operaciones unitarias donde predomina la aplicación de fuerzas físicas en la eliminación de contaminantes.
@@ -96,7 +96,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema2/img8.svg", alt="alt")
+              img(src="@/assets/curso/temas/tema2/img8.svg", alt="Imágen decorativa")
           .crd_hover_txt--body
             h4.mb-3.text-center Tratamientos químicos
             p.mb-5 Son procesos unitarios de transformación química, en los cuales usualmente la eliminación del contaminante se da por la aplicación de un producto químico o por reacciones químicas.
@@ -105,7 +105,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema2/img9.svg", alt="alt")
+              img(src="@/assets/curso/temas/tema2/img9.svg", alt="Imágen decorativa")
           .crd_hover_txt--body
             h4.mb-3.text-center Tratamientos biológicos
             p.mb-5 Son procesos unitarios de transformación biológica, es decir, que la eliminación del contaminante se da por una actividad biológica. 
@@ -144,7 +144,7 @@
           i Secuencia lógica de procesos de tratamiento de aguas residuales
 
         figure
-          img(src="@/assets/curso/temas/tema2/img10.svg", alt="alt")    
+          img(src="@/assets/curso/temas/tema2/img10.svg", alt="Figura 13. Muestra la secuencia lógica de los procesos de tratamiento de aguas residuales.")    
 
 
     .row.bg1-tema2.align-items-center.mb-5(data-aos="fade-right")
@@ -153,7 +153,7 @@
     .row.justify-content-center.align-items-center.mb-5
       p En la determinación de los procesos a aplicar para realizar una depuración o tratamiento de aguas residuales, deben ser tenidos en cuenta los siguientes puntos de manera general:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(title="Imagen que muestra los puntos a tener en cuenta al momento de determinar los procesos a aplicar en la depuración o tratamiento de aguas residuales.")
       .col-lg-10
         .bg-fondo1.p-3.p-lg-5.mb-0
           .row.justify-content-center.align-items-center
@@ -222,13 +222,13 @@
           i Concentraciones de afluente y efluente de un proceso de sedimentación
 
         figure
-          img(src="@/assets/curso/temas/tema2/img11.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema2/img11.svg", alt="Figura 14. Muestra la conformación de la concentración de afluente y efluente en un proceso de sedimentación.")
 
     .row.justify-content-center.align-items-center.mb-5
       p Por ejemplo, si se tiene un afluente con una concentración de sólidos de 1200 mg/l y este ingresa a un sedimentador que tiene una eficiencia de remoción del 93% ¿cuál será la concentración del efluente ?
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(title="Imagen de un tablero que muestra la operación para conocer la concentración del afluente con sus respectivas fórmulas.")
       .col-lg-10
         .bg-tablero.p-5.texto-blanco 
           .row
@@ -239,7 +239,7 @@
 
                 .col-lg-8
                   figure
-                    img(src="@/assets/curso/temas/tema2/img12.svg", alt="alt").img12-13_tm2
+                    img(src="@/assets/curso/temas/tema2/img12.svg", alt="Imágen decorativa").img12-13_tm2
 
               .row.justify-content-center.align-items-center.mb-5
                 .col-lg-3
@@ -247,7 +247,7 @@
 
                 .col-lg-8
                   figure
-                    img(src="@/assets/curso/temas/tema2/img13.svg", alt="alt").img12-13_tm2
+                    img(src="@/assets/curso/temas/tema2/img13.svg", alt="Imágen decorativa").img12-13_tm2
 
               .row.justify-content-center.align-items-center.mb-5
                 .col-lg-3
@@ -255,7 +255,7 @@
 
                 .col-lg-8
                   figure
-                    img(src="@/assets/curso/temas/tema2/img13-2.svg", alt="alt").img12-13_tm2
+                    img(src="@/assets/curso/temas/tema2/img13-2.svg", alt="Imágen decorativa").img12-13_tm2
 
               .row.mb-3
                 .col-lg-4
@@ -285,13 +285,13 @@
                 .col-lg-7
                   p <i>84  mg/l</i>
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(title="Imagen con resultado de eficiencia y concentración.")
       .col-lg-10
         .bg-fondo7.p-4.mb-5
           .row.mt-3
             .col-3.col-lg-1
               figure
-                img(src="@/assets/curso/temas/tema2/img15.svg", alt="alt")
+                img(src="@/assets/curso/temas/tema2/img15.svg", alt="Imágen decorativa")
 
             .col-lg-11
               .row.mb-4
@@ -299,7 +299,7 @@
                   p.text-center <i>Eficiencia equipo A (%) =</i>
                 .col-lg-7
                   figure
-                    img(src="@/assets/curso/temas/tema2/img16.svg", alt="alt")
+                    img(src="@/assets/curso/temas/tema2/img16.svg", alt="Imágen decorativa")
 
               .row
                 p <i>Concentración intermedia = Concentración inicial -( Concentración inicial x eficiencia equipo A/100)</i>
@@ -313,13 +313,13 @@
 
       p Luego así, conociendo la concentración intermedia, se puede calcular la concentración final a partir del equipo B, así:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(title="Imagen con resultado de eficiencia y concentración.")
       .col-lg-10
         .bg-fondo7.p-4.mb-5
           .row.mt-3
             .col-3.col-lg-1
               figure
-                img(src="@/assets/curso/temas/tema2/img15.svg", alt="alt")
+                img(src="@/assets/curso/temas/tema2/img15.svg", alt="Imágen decorativa")
 
             .col-lg-11
               .row.mb-4
@@ -327,7 +327,7 @@
                   p.text-center <i>Eficiencia equipo B (%) =</i>
                 .col-lg-7
                   figure
-                    img(src="@/assets/curso/temas/tema2/img16.svg", alt="alt")
+                    img(src="@/assets/curso/temas/tema2/img16.svg", alt="Imágen decorativa")
 
               .row
                 p <i>Concentración intermedia = Concentración inicial -( Concentración inicial x eficiencia equipo B/100)</i>
@@ -353,7 +353,7 @@
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
-                  img(src="@/assets/curso/temas/tema2/img17.svg", alt="alt")
+                  img(src="@/assets/curso/temas/tema2/img17.svg", alt="Imagen de una rejilla desde la parte superior y la vista lateral.")
               .col-md-6
                 p Dependiendo de su forma se podría indicar que existen aquellas que se limpian manualmente, mecánicamente, que son de forma de canasta o retenedoras de fibra; se colocan por lo general aguas arribas de estaciones de bombeo o de los otros dispositivos. Como su nombre lo indica, son barras o rejillas que se ubican entre 15 a 50 mm (manuales) o entre 3 a 77 mm (mecánicas).  
 
@@ -361,7 +361,7 @@
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
-                  img(src="@/assets/curso/temas/tema2/img18.svg", alt="alt")
+                  img(src="@/assets/curso/temas/tema2/img18.svg", alt="Imagen de la estructura donde se realiza la remoción de grasas.")
               .col-md-6
                 p Para este proceso se pueden usar elementos que cumplan varias funciones, como los que direccionen el agua a un proceso de sedimentación simple o por gravedad, en el cual se brinda un tiempo de retención del agua para permitir que los sólidos suspendidos y la materia orgánica sean sedimentadas, lo cual permite su fácil evacuación; sin embargo, junto a este proceso también se puede adicionar un proceso de flotación, donde la grasa sale a la superficie, y es retenida mientras el agua aclarada sale por una descarga inferior. Se pueden usar los dos procesos o por el contrario solo el segundo, a través del equipo denominado trampa de grasas, el cual puede ser de diferentes índoles, domiciliar (cocinas o restaurantes) o  colectiva (conjuntos residenciales e industrias).        
 
@@ -369,7 +369,7 @@
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
-                  img(src="@/assets/curso/temas/tema2/img19.svg", alt="alt")
+                  img(src="@/assets/curso/temas/tema2/img19.svg", alt="Imagen de un desarenador")
               .col-md-6
                 p Elementos que, como lo indica su nombre, remueven partículas de arena y similares (peso cercano a 2,65 g/cm3 y 0,15 mm de diámetro), por ejemplo, cáscaras y semillas, es decir, partículas sólidas inertes que sedimentan a mayor velocidad que los sólidos orgánicos de tamaño similar. Estos desarenadores suelen hacer procesos de retención de 5 a 10 minutos, este tiempo corto es para que se sedimenten las partículas específicas, pero no lo suficientemente para que exista asentamiento de materia orgánica; su localización debe ser después de las rejillas y antes de los tanques de sedimentación primaria y estaciones de bombeo; debe contar con limpieza, si presentan un caudal de 50 L/s puede ser manual, pero si es mayor de 150 L/s, limpieza mecánica.        
 
@@ -414,7 +414,7 @@
     .row.justify-content-center.align-items-center
       .col-8.col-lg-2
         figure
-          img(src="@/assets/curso/temas/tema2/img20.png", alt="alt").img20-22_tema2
+          img(src="@/assets/curso/temas/tema2/img20.png", alt="Imágen decorativa").img20-22_tema2
       
       .col-lg-10
         .bg-fondo8.p-5.mb-5
@@ -428,7 +428,7 @@
     .row.justify-content-center.align-items-center
       .col-8.col-lg-2
         figure
-          img(src="@/assets/curso/temas/tema2/img21.png", alt="alt").img20-22_tema2
+          img(src="@/assets/curso/temas/tema2/img21.png", alt="Imágen decorativa").img20-22_tema2
       
       .col-lg-10
         .bg-fondo8.p-5.mb-5
@@ -442,7 +442,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-8.col-lg-2
         figure
-          img(src="@/assets/curso/temas/tema2/img22.png", alt="alt").img20-22_tema2
+          img(src="@/assets/curso/temas/tema2/img22.png", alt="Imágen decorativa").img20-22_tema2
       
       .col-lg-10
         .bg-fondo8.p-5.mb-5
@@ -459,7 +459,7 @@
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon1
-              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
           .list__txt
             h3.mb-0.tv.margin-icon Sistemas anaerobios
 
@@ -494,7 +494,7 @@
           .crd.crd--grayGrad(data-aos="flip-left")
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/tema2/img23.svg", alt="alt")
+                img(src="@/assets/curso/temas/tema2/img23.svg", alt="Imágen decorativa")
             h4 Filtración
             p Usando medios filtrantes como el carbón activado, dado que es altamente absorbente, logra remover olores y sustancias tóxicas, además que en este caso es usado para remover materia orgánica disuelta.
         
@@ -502,7 +502,7 @@
           .crd.crd--grayGrad(data-aos="flip-left")
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/tema2/img24.svg", alt="alt")
+                img(src="@/assets/curso/temas/tema2/img24.svg", alt="Imágen decorativa")
             h4 Osmosis inversa
             p En este caso el agua pasa por medio de una membrana, en contra del gradiente de concentración.
         
@@ -510,7 +510,7 @@
           .crd.crd--grayGrad(data-aos="flip-left")
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/tema2/img25.svg", alt="alt")
+                img(src="@/assets/curso/temas/tema2/img25.svg", alt="Imágen decorativa")
             h4 Desinfección
             p Es usado para la destrucción de microorganismos patógenos (bacterias, virus y protozoos), antes de verterlos a los cuerpos de agua receptores, se usan diferentes agentes desinfectantes como el cloro gaseoso, hipoclorito de sodio, dióxido de cloro, cloruro de bromo, o la radiación Ultravioleta (UV).
 
@@ -544,7 +544,7 @@
 
       .col-10.col-lg-5
         figure
-          img(src="@/assets/curso/temas/tema2/img26.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema2/img26.svg", alt="Imagen con la formula que se utiliza para establecer la tasa retributiva.")
 
     .row.justify-content-center.align-items-center.mb-5
       p Para cada uno de los parámetros objeto de cobro, la autoridad ambiental competente establecerá la tarifa de la tasa retributiva (Ttr), que se obtiene multiplicando la tarifa mínima (Tm) por el factor regional (Fr), es por ello que siempre se debe dirigir a revisar la última directriz regional referente a la tasa retributiva para hacer los cálculos correspondientes.
@@ -557,14 +557,14 @@
           .list.mb-3(data-aos="fade-left")
             .list__item
               .list__item__icon2
-                img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+                img(src='@/assets/curso/temas/tema1/icono2.svg', alt='Imágen decorativa')
             .list__txt
               p.mb-0.tv.margin-icon <i>DBO = $131,71 por Kg</i>
 
           .list.mb-3(data-aos="fade-left")
             .list__item
               .list__item__icon2
-                img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+                img(src='@/assets/curso/temas/tema1/icono2.svg', alt='Imágen decorativa')
             .list__txt
               p.mb-0.tv.margin-icon <i>SST= $ 56, 09 por Kg</i>
 
@@ -575,14 +575,14 @@
               .list.mb-3(data-aos="fade-left")
                 .list__item
                   .list__item__icon2
-                    img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+                    img(src='@/assets/curso/temas/tema1/icono2.svg', alt='Imágen decorativa')
                 .list__txt
                   p.mb-0.tv.margin-icon <i>DBO = 107, 7 mg/L con una carga mensual de 12.525 Kg/mes</i>
 
               .list.mb-3(data-aos="fade-left")
                 .list__item
                   .list__item__icon2
-                    img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+                    img(src='@/assets/curso/temas/tema1/icono2.svg', alt='Imágen decorativa')
                 .list__txt
                   p.mb-0.tv.margin-icon <i>SST= 3887 mg/L con una carga mensual de 45.257 Kg/mes</i>
 
@@ -598,7 +598,7 @@
     .row.justify-content-center.align-items-center.mb-5
       figure(data-aos="flip-up")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/TRsILNQK4go" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -612,16 +612,6 @@
               p.text-center Encontrará una descripción detallada de los elementos de protección, desde la página 75 a la 79, y para comprender su aplicabilidad, leer las páginas 79 a la 83.
 
               p.text-center Para consultarlo debe ingresar a la página de bibliotecas del SENA y posteriormente a bases de datos; una vez allí, consultar en E-libro y buscar: Manual de prácticas de seguridad en el trabajo, dar clic en el primer libro que indica Pastor Fernández, A. (2016). 
-
-
-
-
-
-
-
-
-
-
 
 
 

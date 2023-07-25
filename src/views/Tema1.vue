@@ -38,7 +38,7 @@
             ImagenInfografica.color-acento-botones
               template(v-slot:imagen)
                 figure
-                  img(src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema1/img2.svg', alt='Imágen decorativa')
 
               .tarjeta.color-adicional-2.p-4(x="93.3%" y="48.3%" numero="")
                 p.texto-blanco Es el espacio que ocupa el agua residual.
@@ -54,7 +54,7 @@
 
       .col-8.col-lg-3.mb-5
         figure
-          img(src='@/assets/curso/temas/tema1/img3.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img3.svg', alt='Muestra el recipiente cúbico con medidas en metros, esto es:<br>volumen = LxLxL<br>volumen = 1m x 1m x 1m<br>volumen = 1m cubico.')
 
       .col-lg-1
       
@@ -75,7 +75,7 @@
 
       .col-8.col-lg-3.mb-4
         figure
-          img(src='@/assets/curso/temas/tema1/img4.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img4.svg', alt='Representa el recipiente cúbico con la información en centímetros, esto es:<br>Volumen = L x L x L<br>Volumen = 100cm x 100cm x 100cm<br>Volumen = 1.000.000 cm 3')
 
       .col-lg-1
       
@@ -98,7 +98,7 @@
 
       .col-8.col-lg-3.mb-4
         figure
-          img(src='@/assets/curso/temas/tema1/img5.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img5.svg', alt='Representa el recipiente cúbico en pies, y se muestra su formula.<br>Volumen=LXLXL<br>Volumen=3.28.84 PIES x 3.28084  PIES x 3.28.84 PIES')
 
       .col-lg-1
       
@@ -126,7 +126,7 @@
         .row.justify-content-center.align-items-center.mb-3
           .col-8.col-lg-3.mb-4
             figure
-              img(src='@/assets/curso/temas/tema1/img6.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img6.svg', alt='Imagen que representa el volumen de agua en pies cúbicos por el factor de conversión.')
 
           .col-lg-9
             .tarjeta.tarjeta-amarilla2.p-5.mb-4
@@ -136,7 +136,7 @@
         .row.justify-content-center.align-items-center.mb-3
           .col-8.col-lg-3.mb-4
             figure
-              img(src='@/assets/curso/temas/tema1/img7.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen que representa la formula para medir el volumen de agua en pies cúbicos.')
 
           .col-lg-9
             .tarjeta.tarjeta-amarilla2.p-5.mb-4
@@ -145,12 +145,12 @@
                   p <i>Volumen agua en pies cúbicos =</i>
                 .col-lg-5
                   figure
-                    img(src='@/assets/curso/temas/tema1/img7-1.svg', alt='Texto que describa la imagen').img7-tm1              
+                    img(src='@/assets/curso/temas/tema1/img7-1.svg', alt='Imágen decorativa').img7-tm1              
 
         .row.justify-content-center.align-items-center
           .col-8.col-lg-3.mb-4
             figure
-              img(src='@/assets/curso/temas/tema1/img8.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img8.svg', alt='Imagen que representa el total de la operación de volumen de agua en pies cúbicos.')
 
           .col-lg-9
             .tarjeta.tarjeta-amarilla2.p-5.mb-4
@@ -161,7 +161,7 @@
       p Presentamos el desarrollo de un ejercicio utilizando la fórmula de volumen tanque, para determinar su capacidad, analicemos con atención. 
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(title="Imagen que muestra el desarrollo de un ejercicio utilizando la fórmula del volumen del tanque con el fin de determinar su capacidad.")
       .col-lg-10
         .bg-tablero.p-5
           h5.texto-blanco.my-4 Ejercicio ejemplo:
@@ -176,7 +176,7 @@
             
             .col-8.col-lg-3
               figure
-                img(src='@/assets/curso/temas/tema1/img9.svg', alt='Texto que describa la imagen').img9-tm1
+                img(src='@/assets/curso/temas/tema1/img9.svg', alt='Imágen decorativa').img9-tm1
 
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-5
@@ -187,7 +187,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
         figure
-          img(src='@/assets/curso/temas/tema1/img11.svg', alt='Texto que describa la imagen')      
+          img(src='@/assets/curso/temas/tema1/img11.svg', alt='Imagen que contiene definición de Masa: Es la cantidad de materia presente en el agua residual.')      
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -201,11 +201,11 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-5
         figure
-          img(src='@/assets/curso/temas/tema1/img12.svg', alt='Texto que describa la imagen')  
+          img(src='@/assets/curso/temas/tema1/img12.svg', alt='Imagen que representa el ejemplo con el factor de conversión.')  
 
       p A continuación, se presentan las fórmulas y desarrollo de un ejercicio para determinar la cantidad de agua que se debe agregar para cumplir con las especificaciones señaladas:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(title="Imagen que presenta las fórmulas y el desarrollo de un ejercicio.")
       .col-lg-10
         .bg-tablero.p-5
           h5.texto-blanco.my-4 Ejercicio ejemplo:
@@ -222,7 +222,7 @@
             
             .col-8.col-lg-3
               figure
-                img(src='@/assets/curso/temas/tema1/img13.svg', alt='Texto que describa la imagen').img9-tm1
+                img(src='@/assets/curso/temas/tema1/img13.svg', alt='Imágen decorativa').img9-tm1
 
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-5
@@ -235,7 +235,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-3
             figure
-              img(src='@/assets/curso/temas/tema1/img15.svg', alt='Texto que describa la imagen').img15-tm1
+              img(src='@/assets/curso/temas/tema1/img15.svg', alt='Imágen decorativa').img15-tm1
 
           .col-lg-9
             p Para estudiar cómo resolver ejercicios de factores de conversión, se invita a consultar el libro “Física: conceptos y aplicaciones” que se encuentra en el material complementario.
@@ -260,7 +260,7 @@
 
       .col-lg-4.mb-3
         figure
-          img(src='@/assets/curso/temas/tema1/img16.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img16.png', alt='Imágen decorativa')
 
       .col-lg-4
         p Existen tres métodos para medir el caudal, tanto a la entrada como a la salida de la PTAR. De acuerdo con las condiciones, la cantidad de agua y la geometría de las tuberías, equipos o accesorios por los que fluye el agua, se debe escoger el método. 
@@ -291,12 +291,12 @@
 
       .col-lg-6.mb-4
         figure
-          img(src='@/assets/curso/temas/tema1/img17.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img17.svg', alt='Imagen que resuelve el interrogante planteado.')
 
       .col-lg-10
         p En este caso, además de la ecuación para calcular la cauda, se necesitan hacer dos factores de conversión, teniendo en cuenta que un metro cúbico equivale a mil litros y que un minuto equivale a sesenta segundos.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(title="Imagen que muestra el desarrollo de un ejercicio.")
       .col-lg-10
         .bg-tablero.p-5
           h5.texto-blanco.my-4 Ejercicio ejemplo:
@@ -313,7 +313,7 @@
             
             .col-5.col-lg-3
               figure
-                img(src='@/assets/curso/temas/tema1/img18.svg', alt='Texto que describa la imagen').img18-tm1
+                img(src='@/assets/curso/temas/tema1/img18.svg', alt='Imágen decorativa').img18-tm1
 
           .row.justify-content-center.align-items-center.mb-4
 
@@ -322,7 +322,7 @@
             
             .col-6.col-lg-3
               figure
-                img(src='@/assets/curso/temas/tema1/img19.svg', alt='Texto que describa la imagen').img19-tm1
+                img(src='@/assets/curso/temas/tema1/img19.svg', alt='Imágen decorativa').img19-tm1
 
           .row.justify-content-center.align-items-center.mb-5
             
@@ -331,7 +331,7 @@
             
             .col-5.col-lg-3
               figure
-                img(src='@/assets/curso/temas/tema1/img20.svg', alt='Texto que describa la imagen').img20-tm1
+                img(src='@/assets/curso/temas/tema1/img20.svg', alt='Imágen decorativa').img20-tm1
 
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -348,13 +348,13 @@
       .col-lg-10
         p Por ejemplo, se requiere determinar el caudal que tendrá un equipo que contiene 450 kg de agua si se le abre una llave inferior para desocuparse en 250 segundos.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(title="Imagen de demostración del ejercicio mencionado.")
       .col-lg-8 
         .tarjeta.tarjeta-azul2.p-4
           .row.justify-content-center.align-items-center
             .col-10.col-lg-4.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img21.png', alt='Texto que describa la imagen').img21-tm1
+                img(src='@/assets/curso/temas/tema1/img21.png', alt='Imágen decorativa').img21-tm1
 
             .col-lg-8
               .row.justify-content-center.align-items-center
@@ -363,7 +363,7 @@
                 
                 .col-4.col-lg-5.mb-3
                   figure.mt-3
-                    img(src='@/assets/curso/temas/tema1/img22.svg', alt='Texto que describa la imagen').img22-tm1
+                    img(src='@/assets/curso/temas/tema1/img22.svg', alt='Imágen decorativa').img22-tm1
 
               .row.justify-content-center.align-items-center
                 .col-7.col-lg-5
@@ -371,7 +371,7 @@
                 
                 .col-5.col-lg-5.mb-3
                   figure.mt-3
-                    img(src='@/assets/curso/temas/tema1/img23.svg', alt='Texto que describa la imagen').img23-tm1
+                    img(src='@/assets/curso/temas/tema1/img23.svg', alt='Imágen decorativa').img23-tm1
 
               .row.justify-content-center.align-items-center
                 .col-7.col-lg-5
@@ -399,7 +399,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-3.mb-4
         figure
-          img(src='@/assets/curso/temas/tema1/img24.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img24.svg', alt='Imágen decorativa')
 
       .col-lg-8
         p El caudal de la tubería depende del área y la velocidad del agua; por un lado, el área transversal que tendrá el agua será igual al área interna del tubo, por otro lado, para calcular la velocidad del agua se utilizan trazadores químicos o colorantes donde desde un punto determinado se pigmenta y metros más adelante se lleva control del tiempo en el cual el agua pigmentada empieza a aparecer, de este modo, conociendo la distancia que recorrió el agua y el tiempo que tardó en llegar el pigmento al segundo punto, se puede calcular la velocidad.
@@ -409,13 +409,13 @@
         p Lo primero que se debe hacer es calcular el área de la sección transversal de la tubería de diámetro 0,1 metros; esto se realiza a través de la ecuación del área del círculo:
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(title="Imagen que muestra el desarrollo de un ejemplo para calcular el caudal.")
       .col-lg-10
         .tarjeta.tarjeta-azul2.p-5 
           .row.justify-content-center.align-items-center
             .col-10.col-lg-5.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img21.png', alt='Texto que describa la imagen').img21_2-tm1
+                img(src='@/assets/curso/temas/tema1/img21.png', alt='Imágen decorativa').img21_2-tm1
 
             .col-lg-7
               .row.justify-content-center.align-items-center.mb-3
@@ -424,7 +424,7 @@
                 
                 .col-4.col-lg-5
                   figure
-                    img(src='@/assets/curso/temas/tema1/img25.svg', alt='Texto que describa la imagen').img25-tm1
+                    img(src='@/assets/curso/temas/tema1/img25.svg', alt='Imágen decorativa').img25-tm1
 
 
               .row.justify-content-center.align-items-center.mb-3
@@ -433,7 +433,7 @@
                 
                 .col-5.col-lg-5
                   figure
-                    img(src='@/assets/curso/temas/tema1/img26.svg', alt='Texto que describa la imagen').img26-tm1
+                    img(src='@/assets/curso/temas/tema1/img26.svg', alt='Imágen decorativa').img26-tm1
 
               .row.justify-content-center.align-items-center.mb-3
                 .col-lg-11
@@ -452,7 +452,7 @@
 
         p Calcular el caudal de agua que fluye a través de una tubería de diámetro 0,15 metros si esta se desplaza a 8 m/s.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(title="Imagen que muestra el ejemplo del desarrollo del calculo del caudal de agua.")
       .col-lg-10
         .bg-tablero2.p-5
           .row.mb-3
@@ -462,7 +462,7 @@
 
             .col-4.col-lg-2
               figure
-                img(src='@/assets/curso/temas/tema1/img27.svg', alt='Texto que describa la imagen').img27-tm1
+                img(src='@/assets/curso/temas/tema1/img27.svg', alt='Imágen decorativa').img27-tm1
 
           .row.mb-3
             .col-lg-2
@@ -471,7 +471,7 @@
 
             .col-6.col-lg-2
               figure
-                img(src='@/assets/curso/temas/tema1/img28.svg', alt='Texto que describa la imagen').img28-tm1
+                img(src='@/assets/curso/temas/tema1/img28.svg', alt='Imágen decorativa').img28-tm1
 
           .row.mb-3
             .col-lg-2
@@ -498,20 +498,20 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-4
         figure
-          img(src='@/assets/curso/temas/tema1/img29.png', alt='Texto que describa la imagen')      
+          img(src='@/assets/curso/temas/tema1/img29.png', alt='Imágen decorativa')      
 
       .col-lg-7
         p  El principio que se utiliza para determinar el caudal en una canaleta es el de área-velocidad, se debe conocer la geometría de la canaleta por donde está fluyendo el agua para poder determinar el caudal; en este caso, al agua tener contacto con la superficie, se pueden utilizar métodos visuales para determinar la velocidad con la que está fluyendo, una prueba muy común es por flotabilidad, donde se suelta un objeto que no se hunde, se mide una distancia determinada y se toma el tiempo que tarda el objeto en ir desde el punto inicial hasta el punto de referencia. El caudal en las canaletas se puede calcular así:
 
         p Se desea determinar el caudal que está fluyendo en una canaleta rectangular de base 0,50 metros y altura 0,2 metros cuando está totalmente llena, si la velocidad que se determinó por flotabilidad fue de 4 m/s.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(title="Imagen que muestra el desarrollo del ejemplo de una operación de calculo del caudal a partir de una ecuación de continuidad.")
       .col-lg-9
         .tarjeta.tarjeta-azul2.p-5 
           .row.justify-content-center.align-items-center
             .col-10.col-lg-5.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img30.svg', alt='Texto que describa la imagen').img30-tm1
+                img(src='@/assets/curso/temas/tema1/img30.svg', alt='Imágen decorativa').img30-tm1
 
             .col-lg-7
               .row.justify-content-center.align-items-center.mb-0.mb-lg-3
@@ -544,7 +544,7 @@
 
       .col-8.col-lg-4
         figure
-          img(src='@/assets/curso/temas/tema1/img31.png', alt='Texto que describa la imagen')        
+          img(src='@/assets/curso/temas/tema1/img31.png', alt='Imágen decorativa')        
 
     .row.bg4-tema1.align-items-center.mb-5(data-aos="fade-right")
       h4.text-white.mt-3 Método de la sección contraída
@@ -564,7 +564,7 @@
 
       .col-lg-8.mb-4
         figure
-          img(src='@/assets/curso/temas/tema1/img32.svg', alt='Texto que describa la imagen')      
+          img(src='@/assets/curso/temas/tema1/img32.svg', alt='Imagen que muestra el desarrollo del ejemplo de una operación de calculo del caudal a partir de una ecuación de continuidad.')      
 
       .col-lg-11
         P.mb-5 Nota.https://repositorio.unal.edu.co/handle/unal/21725 
@@ -577,7 +577,7 @@
 
       .col-lg-6.mb-5
         figure
-          img(src='@/assets/curso/temas/tema1/img33.svg', alt='Texto que describa la imagen')     
+          img(src='@/assets/curso/temas/tema1/img33.svg', alt='Figura 5. contiene la descripción y dibujos de los medidores de flujo.')     
           figcaption Nota. Lux, M. (2010). Medidores de flujo en canales abiertos. Guatemala: Universidad de San Carlos. (pp.15-18)
       
       .col-lg-11
@@ -589,7 +589,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
         figure
-          img(src='@/assets/curso/temas/tema1/img34.svg', alt='Texto que describa la imagen')      
+          img(src='@/assets/curso/temas/tema1/img34.svg', alt='Imagen que muestra el desarrollo del ejemplo enunciado con anterioridad.')      
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -600,7 +600,7 @@
 
       .col-lg-7
         figure
-          img(src='@/assets/curso/temas/tema1/img35.svg', alt='Texto que describa la imagen') 
+          img(src='@/assets/curso/temas/tema1/img35.svg', alt='Imagen que muestra el desarrollo del interrogante planteado.') 
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -623,7 +623,7 @@
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon1
-              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
           .list__txt
             h3.mb-0.tv.margin-icon Canaleta Parshall
 
@@ -641,7 +641,7 @@
 
       .col-lg-8
         figure.mb-5
-          img(src='@/assets/curso/temas/tema1/img37.svg', alt='Texto que describa la imagen')      
+          img(src='@/assets/curso/temas/tema1/img37.svg', alt='Figura 6. Expone las partes de un medidor de Parshall')      
 
         p Fuente: https://instrumentacionuc.wixsite.com/facultad-ingenieria/copia-de-medicion-en-canales-abiert
 
@@ -668,7 +668,7 @@
 
       .col-lg-8
         figure.mb-5
-          img(src='@/assets/curso/temas/tema1/img39.svg', alt='Texto que describa la imagen')        
+          img(src='@/assets/curso/temas/tema1/img39.svg', alt='Imagen que muestra la fórmula de métodos de estimación de un caudal de agua.')        
 
       p En este caso, a mayor número de personas que utilicen los servicios de agua potable, mayor será la cantidad de vertimientos generados.
 
@@ -678,7 +678,7 @@
 
       .col-lg-8
         figure.mb-5
-          img(src='@/assets/curso/temas/tema1/img40.svg', alt='Texto que describa la imagen')   
+          img(src='@/assets/curso/temas/tema1/img40.svg', alt='Imagen que muestra el desarrollo de la operación planteada.')   
 
       p Para poder tratar la cantidad de agua residual que esta población generará, se requiere diseñar una planta de tratamiento de aguas residuales con capacidad de 7,87 l/s.
 
@@ -692,7 +692,7 @@
 
       .col-lg-6
         figure.mb-5
-          img(src='@/assets/curso/temas/tema1/img41.svg', alt='Texto que describa la imagen')  
+          img(src='@/assets/curso/temas/tema1/img41.svg', alt='Imagen que expone la fórmula de la densidad.')  
 
       p Para efectos prácticos se tomará como valor de referencia la densidad de 1000 kg/m3, a través de este valor será posible determinar la masa presente en una PTAR, conociendo el volumen, o saber si un tanque logrará soportar un determinado volumen de agua sin deformarse por el peso.
 
@@ -703,7 +703,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         figure
-          img(src='@/assets/curso/temas/tema1/img42.svg', alt='Texto que describa la imagen')      
+          img(src='@/assets/curso/temas/tema1/img42.svg', alt='La imagen demuestra el desarrollo del  ejercicio que da respuesta al interrogante planteado.')      
 
 
     separador
@@ -718,7 +718,7 @@
         .list(data-aos="fade-down")
           .list__item
             .list__item__icon1
-              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
           .list__txt
             h3.mb-0.tv.margin-icon El sistema hídrico. 
 
@@ -730,12 +730,12 @@
           h5.mb-0 Figura 7
           | Configuración sistema hídrico
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(title="La imagen demuestra el desarrollo del  ejercicio que da respuesta al interrogante planteado.")
       .col-lg-10
         .row.mb-3
           .col-2.col-lg-1
             figure
-              img(src='@/assets/curso/temas/tema1/img43.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img43.svg', alt='Imágen decorativa')
 
           .col-10.col-lg-3
             h5 Quebradas
@@ -743,7 +743,7 @@
 
           .col-2.col-lg-1
             figure
-              img(src='@/assets/curso/temas/tema1/img44.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img44.svg', alt='Imágen decorativa')
 
           .col-10.col-lg-3
             h5 Ríos
@@ -751,14 +751,14 @@
 
           .col-2.col-lg-1
             figure
-              img(src='@/assets/curso/temas/tema1/img45.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img45.svg', alt='Imágen decorativa')
 
           .col-10.col-lg-3
             h5 Humedales
             p Son ecosistemas de gran valor natural y cultural, donde se encuentran áreas acuáticas y terrestres. Cuentan con una gran diversidad de especies animales y vegetales. 
 
         figure
-          img(src='@/assets/curso/temas/tema1/img46.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img46.svg', alt='Imágen decorativa')
 
         .tarjeta-amarilla.p-4.mb-3
           p.mb-0 El sistema de drenaje funciona a través del alcantarillado público, compuesto por conductos cerrados y canales abiertos, que recogen, transportan y disponen las aguas residuales y lluvias de la ciudad a las plantas de tratamiento o a los cuerpos de agua, según sea el caso. El alcantarillado público de la empresa presta el servicio de dos tipos de alcantarillado, el sanitario o de aguas residuales y el pluvial o de aguas lluvias.
@@ -773,14 +773,14 @@
         .list(data-aos="fade-down")
           .list__item
             .list__item__icon1
-              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
           .list__txt
             h3.mb-0.tv.margin-icon Origen de las aguas residuales
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-3
         figure
-          img(src='@/assets/curso/temas/tema1/img47.png', alt='Texto que describa la imagen')        
+          img(src='@/assets/curso/temas/tema1/img47.png', alt='Imágen decorativa')        
 
       .col-lg-8
         p  Aunque suele indicarse que el 80% del uso del agua es para fines agrícolas, en los cuales se toma el agua usualmente de forma directa del sistema hídrico y posteriormente se devuelve al mismo con otras condiciones, en los últimos años se ha indicado que ese 20% que es para ciudades e industrias ha ido aumentando; aun así, aunque sea en menor proporción que el uso agrícola, en ese aproximado de 20% se centran la mayor cantidad de problemáticas asociadas al recurso, comenzando por la proyección de uso del mismo por crecimiento poblacional.
@@ -819,7 +819,7 @@
           
             .col-md-5
               figure
-                img(src='@/assets/curso/temas/tema1/img48.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img48.svg', alt='Imágen decorativa')
 
           .row.p-4.p-lg-5(titulo="Caracterización")
             .col-md-7.mb-4.mb-md-0
@@ -827,7 +827,7 @@
           
             .col-md-5
               figure
-                img(src='@/assets/curso/temas/tema1/img49.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img49.png', alt='Imágen decorativa')
 
           .row.p-4.p-lg-5(titulo="Punto de descarga")
             .col-md-7.mb-4.mb-md-0
@@ -835,7 +835,7 @@
           
             .col-md-5
               figure
-                img(src='@/assets/curso/temas/tema1/img50.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img50.svg', alt='Imágen decorativa')
 
 
       p Para realizar este análisis se debe tener conocimiento de los sistemas de drenaje de los procesos de la planta, para facilitar así la identificación de los sitios que posteriormente serán utilizados como puntos de muestreo. Por otro lado, se debe tener en cuenta el origen de los vertimientos y el tipo de descarga que se genera.
@@ -845,7 +845,7 @@
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon1
-              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
           .list__txt
             h3.mb-0.tv.margin-icon Generalidades de las aguas residuales
 
@@ -859,7 +859,7 @@
 
       .col-lg-8
         figure
-          img(src='@/assets/curso/temas/tema1/figura8.svg', alt='alt')    
+          img(src='@/assets/curso/temas/tema1/figura8.svg', alt='Figura 8. presenta a través de un esquema la relación del agua residual con los diferentes cuerpos de agua existentes.')    
 
     .row.justify-content-center.align-items-center.mb-5
       p Sin embargo, cuando no son tratados en el lugar de origen, se suele realizar un proceso de transporte fuera de la empresa u organización generadora, en este caso son vertidos directamente a una red de alcantarillado en donde por sus múltiples características puede producir una afectación al funcionamiento del mismo, como el daño de uniones y estructuras de cemento, si contiene sustancias corrosivas; reducción del diámetro efectivo de las tuberías cuando contienen grandes cantidades de aceites y grasas o en casos extremos taponamiento, lo cual se puede traducir en daños e impactos sociales por inundaciones; proliferación de vectores y olores ofensivos; además, cuando llega el agua residual al  sistema hídrico sin tratamientos, se puede presentar afectación del equilibrio biológico, por las altas temperaturas, los posibles detergentes o cargas orgánicas, entre otros, generando contaminación del suelo, flora, fauna  y del agua.
@@ -871,7 +871,7 @@
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon1
-              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
           .list__txt
             h3.mb-0.tv.margin-icon Tipos de aguas residuales
 
@@ -880,21 +880,21 @@
     .row.justify-content-center.align-items-center.mb-5
       figure(data-aos="flip-up")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/hi-seNa6Jzk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.mb-5
       .col-lg-7.mb-4
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon1
-              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
           .list__txt
             h3.mb-0.tv.margin-icon Tipos de descargas
 
       p Conocer el tipo de descarga del agua residual es un elemento o factor de decisión porque de este dependerá el volumen que se registrará y por consiguiente, la cantidad de agua que debe ser tratada. En la siguiente figura,  se presentan los diferentes tipos de descargas:
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(title="Figura 9. Expone los tipos de descargas de agua residual que son:<br>Descarga periódica irregular<br>Descarga periódica regular<br>Descarga Irregular")
       .col-lg-10
         .titulo-sexto.color-figura.mb-5
           h5.mb-0 Figura 9
@@ -902,26 +902,26 @@
 
       .col-8.col-lg-3.mb-3
         figure
-          img(src='@/assets/curso/temas/tema1/img51.svg', alt='alt')        
+          img(src='@/assets/curso/temas/tema1/img51.svg', alt='Imágen decorativa')        
 
       .col-8.col-lg-3.mb-3
         figure
-          img(src='@/assets/curso/temas/tema1/img52.svg', alt='alt')  
+          img(src='@/assets/curso/temas/tema1/img52.svg', alt='Imágen decorativa')  
 
       .col-8.col-lg-3.mb-3
         figure
-          img(src='@/assets/curso/temas/tema1/img53.svg', alt='alt')  
+          img(src='@/assets/curso/temas/tema1/img53.svg', alt='Imágen decorativa')  
 
       .col-8.col-lg-3.mb-3
         figure
-          img(src='@/assets/curso/temas/tema1/img54.svg', alt='alt')  
+          img(src='@/assets/curso/temas/tema1/img54.svg', alt='Imágen decorativa')  
 
     .row.mb-5
       .col-lg-7.mb-4
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon1
-              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
           .list__txt
             h3.mb-0.tv.margin-icon Tipos de fuente receptora
 
@@ -931,7 +931,7 @@
         .list.mb-3(data-aos="fade-left")
           .list__item
             .list__item__icon2
-              img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/icono2.svg', alt='Imágen decorativa')
           .list__txt
             p.mb-0.tv.margin-icon El alcantarillado.
 
@@ -939,7 +939,7 @@
         .list.mb-3(data-aos="fade-left")
           .list__item
             .list__item__icon2
-              img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/icono2.svg', alt='Imágen decorativa')
           .list__txt
             p.mb-0.tv.margin-icon Cauce receptor (mares, lagos, ríos, quebradas, etc.).
 
@@ -951,7 +951,7 @@
 
       .col-lg-8.mb-5
         figure
-          img(src='@/assets/curso/temas/tema1/img55.svg', alt='alt')       
+          img(src='@/assets/curso/temas/tema1/img55.svg', alt='Imagen que describe los parámetros que caracterizan el agua que son:<br>DBQ. DQO<br>Sólidos totales. que son sólidos suspendidos')       
 
       p Sin embargo, es la normatividad legal vigente la que debe determinar qué parámetros aplican y deben ser valorados por sector económico, al igual que brinda la indicación de los límites permisibles para su disposición final.
 
@@ -965,7 +965,7 @@
 
       .col-lg-8.mb-5
         figure
-          img(src='@/assets/curso/temas/tema1/img56.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img56.svg', alt='Imagen que muestra la ecuación de la concentración de contaminante.')
 
       p Es importante hacer una salvedad: cuando dos tipos de aguas se mezclan, las concentraciones iniciales no se suman para obtener una final, por ejemplo:
 
@@ -982,32 +982,32 @@
 
       .col-lg-7.mb-5
         figure
-          img(src='@/assets/curso/temas/tema1/img57.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img57.svg', alt='Imagen que esquematiza el cálculo de la concentración de una mezcla de aguas residuales.')
 
 
       p.mb-5 Para poder calcular la concentración resultante, se debe hacer el siguiente análisis: del tanque A se toman 100 litros para la mezcla y la concentración de sólidos es de 100 mg/L, eso quiere decir que la masa de sólidos aportado por el agua presente en el tanque A es:
 
       .col-lg-8.mb-5
         figure
-          img(src='@/assets/curso/temas/tema1/img58.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img58.svg', alt='Imagen que muestra el cálculo de la concentración resultante.')
 
       p.mb-5 De forma análoga, se calcula la masa de sólidos aportados por el agua residual del tanque B:
 
       .col-lg-8.mb-5
         figure
-          img(src='@/assets/curso/temas/tema1/img59.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img59.svg', alt='Imagen que muestra la manera de calcular la masa de sólidos del agua residual.')
 
       p.mb-5 Es decir, que la masa de sólidos presente en el tanque C, será la suma de las aportadas por los 100 litros de cada tanque A y B.
 
       .col-lg-8.mb-5
         figure
-          img(src='@/assets/curso/temas/tema1/img60.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img60.svg', alt='Imagen que muestra el resultado de la masa de sólidos resultante de la suma de la masa aportados por los tanque residuales del tanque A y B.')
 
       p.mb-5 Sin embargo, para calcular la concentración hace falta conocer el volumen, debido a que tanto el tanque A como el tanque B aportaron cada uno 100 litros; el volumen en el tanque C será de 200 litros, de este modo se puede calcular la concentración como:
 
       .col-lg-8.mb-5
         figure
-          img(src='@/assets/curso/temas/tema1/img61.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img61.svg', alt='Imagen que muestra como se calcula la concentración y como se debe conocer el volumen.')
 
       p De este modo, se determina que las concentraciones de contaminantes no se suman cuando se hacen mezclas de diferentes tipos de agua residual.
 
@@ -1024,7 +1024,7 @@
 
       .col-lg-7.mb-5
         figure
-          img(src='@/assets/curso/temas/tema1/img62.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img62.svg', alt='Figura 11. esquema de estructura de un tanque de concentración.')
 
       p Cuando el agua residual que se almacena en un tanque se divide en dos diferentes (o más) el agua presente en cada uno de los nuevos tanques va a tener la misma concentración de contaminante del tanque inicial.
 
@@ -1036,7 +1036,7 @@
 
       .col-lg-8.mb-5
         figure
-          img(src='@/assets/curso/temas/tema1/img63.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img63.svg', alt='Imagen que muestra la formula para conocer la carga contaminante.')
 
       p.mb-4 La carga contaminante, depende de la masa del mismo; sin embargo, para conocer la masa de contaminante es necesario hacer los análisis de laboratorio, estos análisis dan como resultado la concentración, así pues, se debe generar una relación entre la concentración obtenida como resultado de los ensayos de laboratorios y la carga contaminante con la cual se trabaja en la PTAR:
 
@@ -1055,13 +1055,13 @@
 
     .row.justify-content-center.align-items-center.mb-5
       figure.mb-5
-        img(src='@/assets/curso/temas/tema1/img66.svg', alt='alt')    
+        img(src='@/assets/curso/temas/tema1/img66.svg', alt='Imagen que muestra la formula de la carga contaminante diaria expresada en kilogramos.')    
 
       p En dado caso que la PTAR no trabaje continuamente durante todos los segundos del día, la equivalencia de 86.400 segundos al día se debe reemplazar por el tiempo real de operación en segundos.
 
       p Por ejemplo, una PTAR tiene un sedimentador que puede separar hasta 100 kg de sólidos de las aguas residuales. Una vez alcanza este valor, debe limpiarse para poder seguir trabajando. Si el caudal que maneja la PTAR es de 5 l/s y la concentración de sólidos es de 300 mg/l ¿Cuántas horas podrá operar el sedimentador antes de llenarse totalmente?
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(title="Imagen que despeja la fórmula de la carga contaminante en miligramos por segundo, luego muestra la fórmula para calcularla en kilogramos porhora para luego relacionarla con el tiempo de operación del sedimentador.<br>Finalmente muestra la formular y el resultado del tiempo de operación máxima del sedimentador.")
       .col-lg-10
         .bg-tablero3.p-5
           .col-lg-10.mb-4
@@ -1076,7 +1076,7 @@
 
             .col-lg-5
               figure
-                img(src='@/assets/curso/temas/tema1/img67.svg', alt='alt')             
+                img(src='@/assets/curso/temas/tema1/img67.svg', alt='Imágen decorativa')             
 
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-4
@@ -1084,7 +1084,7 @@
 
             .col-4.col-lg-2
               figure
-                img(src='@/assets/curso/temas/tema1/img68.svg', alt='alt').img68-tm1
+                img(src='@/assets/curso/temas/tema1/img68.svg', alt='Imágen decorativa').img68-tm1
 
           .col-lg-10
             p Por lo tanto, el sedimentador podrá operar:
@@ -1095,7 +1095,7 @@
 
             .col-8.col-lg-3
               figure
-                img(src='@/assets/curso/temas/tema1/img69.svg', alt='alt').img69-tm1
+                img(src='@/assets/curso/temas/tema1/img69.svg', alt='Imágen decorativa').img69-tm1
 
 
           .col-lg-10.mb-lg-4
@@ -1119,37 +1119,37 @@
 
       .col-lg-7
         figure
-          img(src='@/assets/curso/temas/tema1/img70.svg', alt='alt')      
+          img(src='@/assets/curso/temas/tema1/img70.svg', alt='Figura 12. Expone la estructura de los caudales.')      
 
     .row.justify-content-center.align-items-center.mb-5
       p.mb-4 Para conocer la concentración del agua resultante en el tanque I, se debe hacer uso primero de las cargas contaminantes, porque las concentraciones no se suman.
 
       .col-lg-8.mb-4
         figure
-          img(src='@/assets/curso/temas/tema1/img71.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img71.svg', alt='Imagen que muestra el desarrollo de la operación para conocer la concentración del agua resultante en el tanque I.')
       
       p.mb-4 Del mismo modo con el tanque H:
 
       .col-lg-8.mb-4
         figure
-          img(src='@/assets/curso/temas/tema1/img72.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img72.svg', alt='Imagen que muestra la operación que debe hacerse para conocer la concentración del agua resultante del tanque H.')
       
       p.mb-4 La carga contaminante en el tanque I será la suma de G y H:
 
       .col-lg-8.mb-4
         figure
-          img(src='@/assets/curso/temas/tema1/img73.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img73.svg', alt='Imagen que soporta la explicación del resultado de la carga contaminante en el tanque I.')
 
       p.mb-4 Se conoce así que la carga contaminante es de 5100 mg/s en el tanque I. Para conocer la concentración se debe tener en cuenta el tiempo en segundos que duran abiertas las llaves, así:
 
       .col-lg-8.mb-4
         figure
-          img(src='@/assets/curso/temas/tema1/img74.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img74.svg', alt='Imagen que muestra como luego de conocer la carga contaminante del tanque I, se pasa a conocer la concentración atendiendo el tiempo en segundos que duran las llaves.')
 
       p Del mismo modo, se calcula el volumen de agua una vez transcurran los cinco minutos. Inicialmente, se debe calcular el caudal de agua que llega al tanque I, este es igual a la suma de los caudales que salen de los tanques G y H.
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(title="Imagen que muestra como se calcula el volumen del agua luego de haber transcurrido 5 minutos de tiempo.")
       .col-lg-10
         .bg-tablero4.p-3.p-lg-5
           .col-lg-8.mb-4
@@ -1175,7 +1175,7 @@
               
               .col-8.col-lg-5.mb-2
                 figure
-                  img(src='@/assets/curso/temas/tema1/img75.svg', alt='alt')
+                  img(src='@/assets/curso/temas/tema1/img75.svg', alt='Imágen decorativa')
 
             .row.justify-content-center.align-items-center
               .col-lg-7
@@ -1183,7 +1183,7 @@
               
               .col-8.col-lg-5.mb-2           
                 figure
-                  img(src='@/assets/curso/temas/tema1/img76.svg', alt='alt')
+                  img(src='@/assets/curso/temas/tema1/img76.svg', alt='Imágen decorativa')
 
 
 
