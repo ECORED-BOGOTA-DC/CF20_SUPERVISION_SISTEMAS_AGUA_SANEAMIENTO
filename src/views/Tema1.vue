@@ -787,25 +787,6 @@
 
         p En cualquier caso, siempre asociado al uso se evidenciará de forma directa una contaminación del agua resultante, lo que la convierte en un agua residual o vertimiento; contaminación que puede ser dada por diferentes factores, como: los sólidos suspendidos, los productos químicos, fertilizantes, detergentes, metales pesados, microorganismos entre otros.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .tarjeta.tarjeta-morada.p-4.mb-5
-          .row.justify-content-around.align-items-center
-            .col-4.col-sm-2.col-lg-2
-              img(src="@/assets/curso/temas/tema1/img38.svg")
-            .col-lg-10
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p Para comprender mejor la contaminación en el agua, lo invitamos a consultar el libro “El agua”, el cual se encuentra en el material complementario.
-
-                  p De las páginas 127 a la 156 encontrará el capítulo IV, los problemas del agua, en el cual podrá hacer un reconocimiento de los diferentes orígenes de las aguas residuales y sus problemáticas más relevantes.
-
-                  p.mb-0 Para consultarlo debe ingresar a la página de bibliotecas del SENA y posteriormente a bases de datos, una vez allí, consultar E-libro y buscar: generación de aguas residuales, dar clic en el segundo libro que indica AGUA, de Guerrero Legarreta, Manuel.
-
-                .col-sm-auto
-                  a.boton.boton-amarillo(href="https://biblioteca.sena.edu.co/F/TVYNF98RI79U6DIFE236T5LD7CUR9VIKJHPQMSX19QABM6CC7J-19534?func=full-set-set&set_number=004676&set_entry=000001&format=999 " target="_blank")
-                    span Ver más
-                    i.fas.fa-link
 
     .row.justify-content-center.align-items-center.mb-5
       p De acuerdo con el Banco Interamericano de Desarrollo y la Asociación Nacional de Industriales (ANDI) (1997), en su documento manual para la caracterización de aguas residuales industriales encontramos las siguientes definiciones:
