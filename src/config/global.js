@@ -288,12 +288,6 @@ export default {
     },
     {
       referencia:
-        'Guerrero Legarreta, M. (2010). <i>El agua.</i> FCE - Fondo de Cultura Económica. ',
-      link:
-        'https://biblioteca.sena.edu.co/F/TVYNF98RI79U6DIFE236T5LD7CUR9VIKJHPQMSX19QABM6CC7J-19534?func=full-set-set&set_number=004676&set_entry=000001&format=999',
-    },
-    {
-      referencia:
         'Lux, M. (2010). <i>Medidores de flujo en canales abiertos.</i> Guatemala: Universidad de San Carlos.',
       link: '',
     },

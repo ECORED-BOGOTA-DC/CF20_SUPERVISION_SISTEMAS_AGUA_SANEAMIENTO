@@ -614,7 +614,7 @@
                 .col.mb-3.mb-sm-0
                   p Para ampliar la información sobre vertederos, lo invitamos a consultar el documento “Medidores de flujo en canales abiertos”, el cual se encuentra en el material complementario.
                 .col-sm-auto
-                  a.boton.boton-amarillo(href="https://www.academia.edu/20330463/Canal_Parshall" target="_blank")
+                  a.boton.color-primario(href="https://www.academia.edu/20330463/Canal_Parshall" target="_blank")
                     span Ver más
                     i.fas.fa-link
 
@@ -656,7 +656,7 @@
                 .col.mb-3.mb-sm-0
                   p Para ampliar la información sobre canaletas Parshall, lo invitamos a consultar el documento “Serie autodidáctica de medición, canaleta Parshall”, que se encuentra en el material complementario.
                 .col-sm-auto
-                  a.boton.boton-amarillo(href="https://www.academia.edu/20330463/Canal_Parshall" target="_blank")
+                  a.boton.color-primario(href="https://www.academia.edu/20330463/Canal_Parshall" target="_blank")
                     span Ver más
                     i.fas.fa-link
 
