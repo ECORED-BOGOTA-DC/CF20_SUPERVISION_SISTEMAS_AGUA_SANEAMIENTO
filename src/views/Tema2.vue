@@ -33,7 +33,7 @@
           
           p(numero="2" titulo="Ley 1333 de 2009") Por la cual se establece el procedimiento sancionatorio ambiental y se dictan otras disposiciones.
 
-          p(numero="3" titulo="Resolución 3957, 2009") Por la cual se establece la norma técnica, para el control y manejo de los vertimientos realizados al recurso hídrico en el Distrito Capital, específicamente para alcantarillados.
+          p(numero="3" titulo="Resolución 3957, 2009") Por la cual se establece la norma técnica, para el control y manejo de los vertimientos realizados al recurso hídrico en el Distrito Capital, específicamente para alcantarillados.<br><br>Por la cual se establece la norma técnica, para el control y manejo de los vertimientos realizados al recurso hídrico en el Distrito Capital, específicamente a cuerpos de agua.
 
           p(numero="4" titulo="Decreto 3930, 2010") Por el cual se reglamenta parcialmente el Título I de la Ley 9ª de 1979, así como el Capítulo II del Título VI -Parte III- Libro II del Decreto-ley 2811 de 1974 en cuanto a usos del agua y residuos líquidos y se dictan otras disposiciones.
           
@@ -68,7 +68,7 @@
         .bloque-texto-g.color-azul.p-3.p-sm-4.p-md-4
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img2.svg')})`}"
-          )
+          )(alt="Imágen decorativa")
           .bloque-texto-g__texto.p-3
             p.mb-0 Esto quiere decir, que en el cuerpo de agua y/o tramo del mismo o en acuíferos en donde se asignen usos múltiples, los límites a que hace referencia la normatividad, se establecerán teniendo en cuenta los valores más restrictivos de cada uno de los parámetros fijados para cada uso, luego desentendiendo de la ubicación del punto de descarga del vertimiento y de las normas aplicables, se deberán contemplar y cumplir siempre la base normativa más restrictiva.
 
@@ -259,31 +259,31 @@
 
               .row.mb-3
                 .col-lg-4
-                  p <i>0,93 x 1200 mg/l =</i>
+                  p 0,93 x 1200 mg/l =
 
                 .col-lg-8 
-                  p <i>1200 mg/l - Concentración efluente</i>
+                  p 1200 mg/l - Concentración efluente
 
               .row.mb-3
                 .col-lg-5
                   p <i>Concentración efluente =</i>
 
                 .col-lg-7
-                  p <i>1200 mg/l - (0,93 x 1200 mg/l)</i>
+                  p 1200 mg/l - (0,93 x 1200 mg/l)
 
               .row.mb-3
                 .col-lg-5
                   p <i>Concentración efluente =</i>
 
                 .col-lg-7
-                  p <i>1200 mg/l -1116 mg/l</i>
+                  p 1200 mg/l -1116 mg/l
 
               .row.mb-3
                 .col-lg-5
                   p <i>Concentración efluente =</i> 
 
                 .col-lg-7
-                  p <i>84  mg/l</i>
+                  p 84  mg/l
 
     .row.justify-content-center.align-items-center.mb-5(title="Imagen con resultado de eficiencia y concentración.")
       .col-lg-10
@@ -302,13 +302,13 @@
                     img(src="@/assets/curso/temas/tema2/img16.svg", alt="Imágen decorativa")
 
               .row
-                p <i>Concentración intermedia = Concentración inicial -( Concentración inicial x eficiencia equipo A/100)</i>
+                p <i>Concentración intermedia = Concentración inicial -( Concentración inicial</i> x <i>eficiencia equipo</i> A/100)
 
-                p <i>Concentración intermedia = 1000 mg/l -( 1000 mg/l  x  0,5)</i>
+                p <i>Concentración intermedia</i> = 1000 mg/l -( 1000 mg/l  x  0,5)
 
-                p <i>Concentración intermedia = 1000 mg/l - 500 mg/l</i>
+                p <i>Concentración intermedia</i> = 1000 mg/l - 500 mg/l
 
-                p <i>Concentración intermedia = 500 mg/l</i>
+                p <i>Concentración intermedia</i> = 500 mg/l
 
 
       p Luego así, conociendo la concentración intermedia, se puede calcular la concentración final a partir del equipo B, así:
@@ -330,13 +330,13 @@
                     img(src="@/assets/curso/temas/tema2/img16.svg", alt="Imágen decorativa")
 
               .row
-                p <i>Concentración intermedia = Concentración inicial -( Concentración inicial x eficiencia equipo B/100)</i>
+                p <i>Concentración intermedia = Concentración inicial -( Concentración inicial</i> x <i>eficiencia equipo</i> B/100)
 
-                p <i>Concentración intermedia = 500 mg/l -( 500 mg/l  x  0,5)</i>
+                p <i>Concentración intermedia</i> = 500 mg/l -( 500 mg/l  x  0,5)
 
-                p <i>Concentración intermedia = 500 mg/l - 250 mg/l</i>
+                p <i>Concentración intermedia</i> = 500 mg/l - 250 mg/l
 
-                p <i>Concentración intermedia = 250 mg/l</i>
+                p <i>Concentración intermedia</i> = 250 mg/l
 
       p El efluente, después de los dos equipos para el tratamiento, tendrá una concentración de 250 mg/l de contaminante.
 
@@ -403,7 +403,7 @@
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon1
-              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
           .list__txt
             h3.mb-0.tv.margin-icon Sistemas aerobios
 
@@ -559,14 +559,14 @@
               .list__item__icon2
                 img(src='@/assets/curso/temas/tema1/icono2.svg', alt='Imágen decorativa')
             .list__txt
-              p.mb-0.tv.margin-icon <i>DBO = $131,71 por Kg</i>
+              p.mb-0.tv.margin-icon <i>DBO</i> = $131,71 por Kg
 
           .list.mb-3(data-aos="fade-left")
             .list__item
               .list__item__icon2
                 img(src='@/assets/curso/temas/tema1/icono2.svg', alt='Imágen decorativa')
             .list__txt
-              p.mb-0.tv.margin-icon <i>SST= $ 56, 09 por Kg</i>
+              p.mb-0.tv.margin-icon <i>SST</i> = $ 56, 09 por Kg
 
           .row
             .col-lg-10          
@@ -577,20 +577,20 @@
                   .list__item__icon2
                     img(src='@/assets/curso/temas/tema1/icono2.svg', alt='Imágen decorativa')
                 .list__txt
-                  p.mb-0.tv.margin-icon <i>DBO = 107, 7 mg/L con una carga mensual de 12.525 Kg/mes</i>
+                  p.mb-0.tv.margin-icon <i>DBO</i> = 107, 7 mg/L con una carga mensual de 12.525 Kg/mes
 
               .list.mb-3(data-aos="fade-left")
                 .list__item
                   .list__item__icon2
                     img(src='@/assets/curso/temas/tema1/icono2.svg', alt='Imágen decorativa')
                 .list__txt
-                  p.mb-0.tv.margin-icon <i>SST= 3887 mg/L con una carga mensual de 45.257 Kg/mes</i>
+                  p.mb-0.tv.margin-icon <i>SST</i> = 3887 mg/L con una carga mensual de 45.257 Kg/mes
 
 
     separador
 
     #t_2_4.titulo-segundo.color-acento-botones
-       h2 2.4. Seguridad y salud en el trabajo
+       h2 2.4 Seguridad y salud en el trabajo
 
     .row.justify-content-center.align-items-center.mb-5
       p Los invitamos a consultar el siguiente video donde se contextualiza seguridad y salud para el trabajo.

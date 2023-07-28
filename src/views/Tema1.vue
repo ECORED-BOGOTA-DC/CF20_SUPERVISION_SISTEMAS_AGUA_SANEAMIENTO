@@ -61,8 +61,8 @@
       .col-lg-4
         .tarjeta.tarjeta-amarilla.p-4
           p <i>Volumen = L x L x L</i>
-          p <i>Volumen = 1m x 1m x 1m</i>
-          p.mb-0 <i>Volumen = 1m<sup>3</sup></i>
+          p <i>Volumen</i> = 1<i>m</i> x 1<i>m</i> x 1<i>m</i>
+          p.mb-0 <i>Volumen</i> = 1<i>m<sup>3</sup></i>
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -82,8 +82,8 @@
       .col-lg-4
         .tarjeta.tarjeta-amarilla.p-4
           p <i>Volumen = L x L x L</i>
-          p <i>Volumen = 100 cm x 100 cm x 100 cm</i>
-          p.mb-0 <i>Volumen = 1'000.000 cm<sup>3</sup></i>
+          p <i>Volumen</i> = 100 cm x 100 cm x 100 cm
+          p.mb-0 <i>Volumen</i> = 1'000.000 cm<sup>3</sup>
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -105,15 +105,15 @@
       .col-lg-6
         .tarjeta.tarjeta-amarilla.p-4
           p <i>Volumen = L x L x L</i>
-          p <i>Volumen = 3.28084 pies x 3.28084 pies x 3.28084 pies</i>
-          p.mb-0 <i>Volumen = 35.31 pies<sup>3</sup></i>
+          p <i>Volumen</i> = 3.28084 pies x 3.28084 pies x 3.28084 pies
+          p.mb-0 <i>Volumen</i> = 35.31 pies<sup>3</sup>
 
 
     .row.justify-content-center.align-items-center.mb-5
       p.mb-4 Así se puede evidenciar que:
       .col-lg-6
         .tarjeta.tarjeta-azul2.p-2
-          p.text-center.mb-0 #[i #[b Volumen del cubo =]] <i>1m<sup>3</sup> = 1'000.000 cm3 = 35.31 pies<sup>3</sup></i>
+          p.text-center.mb-0 #[i #[b Volumen del cubo =]] 1m<sup>3</sup> = 1'000.000 cm3 = 35.31 pies<sup>3</sup>
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -131,7 +131,7 @@
           .col-lg-9
             .tarjeta.tarjeta-amarilla2.p-5.mb-4
               .row.justify-content-center.align-items-center
-                p <i>Volumen agua en pies cúbicos = Volumen de agua en m<sup>3</sup> x factor de conversión</i>    
+                p <i>Volumen agua en pies cúbicos = Volumen de agua en</i> <i>m<sup>3</sup> x</i> <i>factor de conversión</i>    
 
         .row.justify-content-center.align-items-center.mb-3
           .col-8.col-lg-3.mb-4
@@ -141,9 +141,9 @@
           .col-lg-9
             .tarjeta.tarjeta-amarilla2.p-5.mb-4
               .row.justify-content-center.align-items-center
-                .col-lg-7
-                  p <i>Volumen agua en pies cúbicos =</i>
-                .col-lg-5
+                .col-lg-8
+                  p <i>Volumen agua en pies cúbicos</i> = 1550 m3 x
+                .col-lg-4
                   figure
                     img(src='@/assets/curso/temas/tema1/img7-1.svg', alt='Imágen decorativa').img7-tm1              
 
@@ -155,7 +155,7 @@
           .col-lg-9
             .tarjeta.tarjeta-amarilla2.p-5.mb-4
               .row.justify-content-center.align-items-center
-                p <i>Volumen agua en pies cúbicos = 54.737,73 pies3</i>
+                p <i>Volumen agua en pies cúbicos</i> = 54.737,73 pies3
 
     .row.mb-5
       p Presentamos el desarrollo de un ejercicio utilizando la fórmula de volumen tanque, para determinar su capacidad, analicemos con atención. 
@@ -181,7 +181,7 @@
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-5
               .tarjeta.tarjeta-naranja.p-2
-                h5.mb-0.text-center <i><b style= "color:#0D6A3E;">Volumen tanque = 21'353.724 cm<sup>3</sup></b></i>
+                h5.mb-0.text-center <b style= "color:#0D6A3E;"><i>Volumen tanque</i> = 21'353.724 cm<sup>3</sup></b>
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -218,7 +218,7 @@
             p.texto-blanco.text-center.mb-5 <i>Masa en kilogramos = masa en libras  x factor de conversión</i>
 
             .col-lg-6
-              p.texto-blanco.text-center <i>Masa en kilogramos = 3000 lb  x</i>
+              p.texto-blanco.text-center <i>Masa en kilogramos</i> = 3000 lb x
             
             .col-8.col-lg-3
               figure
@@ -227,7 +227,7 @@
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-5
               .tarjeta.tarjeta-naranja.p-2
-                h5.mb-0.text-center <i><b style= "color:#0D6A3E;">Masa en kilogramos = 1360,78 kg</b></i>          
+                h5.mb-0.text-center <b style= "color:#0D6A3E;"><i>Masa en kilogramos</i>  = 1360,78 kg</b>         
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -284,7 +284,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-4
         .row.bg3-tema1.align-items-center.mb-5(data-aos="fade-right")
-          h4.text-center.text-white.mt-3 <i>Caudal volumétrico (Q) =  V/t</i>
+          h4.text-center.text-white.mt-3 <i>Caudal volumétrico</i> (Q) =  V/t
 
       .col-lg-10.mb-4
         p Por ejemplo, ¿cuál es el caudal volumétrico en litros por segundo de una PTAR que vierte 0,450 metros cúbicos de agua residual en 2 minutos?
@@ -343,7 +343,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-4
         .row.bg3-tema1.align-items-center.mb-5(data-aos="fade-right")
-          h4.text-center.text-white.mt-3 <i>Caudal másico (▁(Q)) = m/t</i>
+          h4.text-center.text-white.mt-3 <i>Caudal másico</i> (▁(Q)) = m/t
 
       .col-lg-10
         p Por ejemplo, se requiere determinar el caudal que tendrá un equipo que contiene 450 kg de agua si se le abre una llave inferior para desocuparse en 250 segundos.
@@ -378,7 +378,7 @@
                   p <i>Caudal másico (Q) =</i>
                 
                 .col-5.col-lg-5
-                  p <i>1.8 kg/s</i>
+                  p 1.8 kg/s
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -437,13 +437,13 @@
 
               .row.justify-content-center.align-items-center.mb-3
                 .col-lg-11
-                  i Área transversal del tubo =  0,00785 m2
+                  p <i>Área transversal del tubo</i> =  0,00785 m2
                 
                   p.mt-5 Posteriormente, se calcula el caudal a partir de la ecuación de continuidad:
 
-                  p.text-center.mb-1 <i>Q = vA</i>
-                  p.text-center.mb-1 <i>Q = (5 m/s) (0,00785m2)</i>
-                  p.text-center.mb-1 <i>Q = 0,0392 m<sup>3</sup>/s</i>
+                  p.text-center.mb-1 <i>Q</i> = vA
+                  p.text-center.mb-1 <i>Q</i> = (5 m/s) (0,00785m2)
+                  p.text-center.mb-1 <i>Q</i> = 0,0392 m<sup>3</sup>/s
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -476,18 +476,18 @@
           .row.mb-3
             .col-lg-2
             .col-9.col-lg-7.mb-lg-4
-              i.texto-blanco Área transversal del tubo =    0,001767 m2
+              p.texto-blanco <i>Área transversal del tubo</i> =    0,001767 m2
 
           .row
             .col-lg-2
             .col-10.col-lg-6
               p.texto-blanco Posteriormente, se calcula el caudal a partir de la ecuación de continuidad:
 
-              p.texto-blanco.text-center.mb-0 <i>Q = vA</i>
+              p.texto-blanco.text-center.mb-0 <i>Q</i> = vA
 
-              p.texto-blanco.text-center.mb-0 <i>Q = (8 m/s) (0,001767 m<sup>2</sup>)</i>
+              p.texto-blanco.text-center.mb-0 <i>Q</i> = (8 m/s) (0,001767 m<sup>2</sup>)
 
-              p.texto-blanco.text-center.mb-0 #[b #[i Q = 0,1413 m3/s]]
+              p.texto-blanco.text-center.mb-0 #[b #[i Q] = 0,1413 m3/s]
 
     .row.justify-content-center.align-items-center
       .col-lg-11
@@ -517,13 +517,16 @@
               .row.justify-content-center.align-items-center.mb-0.mb-lg-3
                 i.mb-4 Área transversal de la canaleta = base x altura
 
+                i.mb-4 Área transversal de la canaleta = (0,50 m) x (0,2 m)
+
                 i.mb-4 Área transversal de la canaleta = 0,1 m2
 
-                p.mb-4 Posteriormente, se calcula el caudal a partir de la ecuación de continuidad:
+                .tarjeta-cafe.p-3.mb-3
+                  p.mb-0 Posteriormente, se calcula el caudal a partir de la ecuación de continuidad:
 
-                p.text-center.mb-1 <i>Q = vA</i>
-                p.text-center.mb-1 <i>Q = (4 m/s) (0,1 m2)</i>
-                b.text-center.mb-1 <i>Q = 0,4 m3/s</i>
+                p.text-center.mb-1 <i>Q</i> = vA
+                p.text-center.mb-1 <i>Q</i> = (4 m/s) (0,1 m2)
+                b.text-center.mb-1 <i>Q</i> = 0,4 m3/s
 
     .row.justify-content-center.align-items-center.mb-5
       h4 Ejercicio ejemplo:
@@ -531,16 +534,16 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
-        p.mb-4 <i>Área transversal de la canaleta = Lado x Lado</i>
-        p.mb-4 <i>Área transversal de la canaleta = (1,5 m) x (1,5 m)</i>
-        p.mb-4 <i>Área transversal de la canaleta = 2.25 m2</i>
+        p.mb-4 <i>Área transversal de la canaleta</i> = Lado x Lado
+        p.mb-4 <i>Área transversal de la canaleta</i> = (1,5 m) x (1,5 m)
+        p.mb-4 <i>Área transversal de la canaleta</i> = 2.25 m2
       
         .cajon.color-secundario.p-3
           p.mb-0 Posteriormente, se calcula el caudal a partir de la ecuación de continuidad:
 
-        p.text-center <i>Q = vA</i>
-        p.text-center <i>Q = (5 m/s) (2,25 m2)</i>
-        p.text-center <i><b>Q = 11,25 m<sup>3</sup>/s</b></i>
+        p.text-center <i>Q</i> = vA
+        p.text-center <i>Q</i> = (5 m/s) (2,25 m2)
+        p.text-center <b><i>Q</i> = 11,25 m<sup>3</sup>/s</b>
 
       .col-8.col-lg-4
         figure
@@ -608,7 +611,7 @@
         .tarjeta.tarjeta-morada.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-4.col-sm-2.col-lg-2
-              img(src="@/assets/curso/temas/tema1/img36.svg")
+              img(src="@/assets/curso/temas/tema1/img36.svg",alt="Imágen decorativa")
             .col-10.col-lg
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -650,7 +653,7 @@
         .tarjeta.tarjeta-morada.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-4.col-sm-2.col-lg-2
-              img(src="@/assets/curso/temas/tema1/img38.svg")
+              img(src="@/assets/curso/temas/tema1/img38.svg",alt="Imágen decorativa")
             .col-10.col-auto
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -1046,26 +1049,26 @@
       .col-lg-10
         .bg-tablero3.p-5
           .col-lg-10.mb-4
-            p.text-center <i>Carga contaminante (mg/s) = concentración contaminante (mg/l)  x caudal (l/s)</i>
-            p.text-center <i>Carga contaminante (mg/s) = 300 mg/l  x 5 l/s</i>
-            p.mb-3.text-center <i>Carga contaminante (mg/s) = 1500 mg/s</i>
+            p.text-center <i>Carga contaminante</i> (mg/s) = <i>concentración contaminante</i> (mg/l)  x <i>caudal</i> (l/s)
+            p.text-center <i>Carga contaminante</i> (mg/s) = 300 mg/l  x 5 l/s
+            p.mb-3.text-center <i>Carga contaminante</i> (mg/s) = 1500 mg/s
             p.text-center Una vez se conoce la carga contaminante en miligramos por segundo se procede a calcularse en kilogramos por horas para poder relacionarse con el tiempo de operación útil del sedimentador.
           
           .row.mb-4
             .col-lg-4
-              p <i>Carga contaminante (kg/h) =</i>
+              p <i>Carga contaminante</i> (kg/h) =
 
             .col-lg-5
               figure
-                img(src='@/assets/curso/temas/tema1/img67.svg', alt='Imágen decorativa')             
+                img(src='@/assets/curso/temas/tema1/img67.png', alt='Imágen decorativa')             
 
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-4
-              p <i>Carga contaminante (kg/h) =</i>
+              p <i>Carga contaminante</i> (kg/h) =
 
             .col-4.col-lg-2
               figure
-                img(src='@/assets/curso/temas/tema1/img68.svg', alt='Imágen decorativa').img68-tm1
+                img(src='@/assets/curso/temas/tema1/img68.png', alt='Imágen decorativa').img68-tm1
 
           .col-lg-10
             p Por lo tanto, el sedimentador podrá operar:
@@ -1080,7 +1083,7 @@
 
 
           .col-lg-10.mb-lg-4
-            p.text-center <i>Tiempo de operación máxima del sedimentador = 18,52 horas</i>
+            p.text-center <i>Tiempo de operación máxima del sedimentador</i> = 18,52 horas
 
     .row.justify-content-center.align-items-center.mb-5
       p.mb-5 Cuando se quieren hacer mezclas de aguas residuales, las cargas contaminantes se suman, como se presenta en el siguiente ejemplo:
@@ -1136,17 +1139,17 @@
           .col-lg-8.mb-4
             p.text-center.texto-blanco <i>Caudal en tanque I = Caudal en tanque G + Caudal en tanque H</i>
 
-            p.text-center.texto-blanco <i>Caudal en tanque I = 4 l/s  + 3 l/s</i>
+            p.text-center.texto-blanco <i>Caudal en tanque I</i> = 4 l/s  + 3 l/s
             
-            p.text-center.texto-blanco <i>Caudal en tanque I =7 l/s</i>
+            p.text-center.texto-blanco <i>Caudal en tanque I</i> =7 l/s
             
             p.texto-blanco Ahora sí se puede calcular el volumen de agua que ha ingresado al tanque I, una vez transcurren los cinco minutos:
             
             p.text-center.texto-blanco <i>Volumen en tanque I = Caudal en tanque I x tiempo</i>
             
-            p.text-center.texto-blanco <i>Volumen en tanque I = 7 l/s x 300 s</i>
+            p.text-center.texto-blanco <i>Volumen en tanque I</i> = 7 l/s x 300 s
             
-            p.text-center.texto-blanco <i>Volumen en tanque I = 2100 l</i>
+            p.text-center.texto-blanco <i>Volumen en tanque I</i> = 2100 l
             
             p.texto-blanco Una vez se conoce la masa de contaminante presente en el tanque y el volumen, se procede a calcular la concentración de contaminante.
             
