@@ -137,14 +137,14 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema: 'Aguas residuales o vertimientos',
       referencia:
         'Corporación Autónoma Regional de Antioquia [CORANTIOQUIAOFICIAL]. (2016, 25 de noviembre). <i>Control y seguimiento a los  vertimientos.</i> [vídeo]. <b>YouTube.</b>',
       tipo: 'Vídeo',
       link: 'https://www.youtube.com/watch?v=uHjJi2YU43M',
     },
     {
-      tema: '',
+      tema: 'Tratamiento de las aguas residuales',
       referencia:
         'Ministerio de Desarrollo Económico. (2000). <i>Reglamento técnico del sector de Agua potable y Saneamiento básico RAS - 2000.</i> Título - El tratamiento de aguas residuales. Dirección de agua potable y saneamiento básico',
       tipo: 'Libro',
@@ -152,7 +152,7 @@ export default {
         'https://www.minvivienda.gov.co/sites/default/files/documentos/010710_ras_titulo_e_.pdf',
     },
     {
-      tema: '',
+      tema: 'Seguridad y salud en el trabajo',
       referencia:
         'Pastor Fernández, A. (2016). <i>Manual de prácticas de seguridad en el trabajo.</i> Servicio de Publicaciones de la Universidad de Cádiz.',
       tipo: 'Manual',
@@ -160,28 +160,28 @@ export default {
         'https://biblioteca.sena.edu.co/F/N6E54A5VX27F6VK3P19VJASJDE186BFVH4TRQE5TDN4Y6RHK2K-21375?func=full-set-set&set_number=004691&set_entry=000001&format=999',
     },
     {
-      tema: '',
+      tema: 'Métodos y equipos de tratamiento',
       referencia:
         'Pedroza, E. (2001). <i>Serie autodidáctica de medición, canaleta Parshall.</i> México: Instituto mexicano de tecnología del agua. ISBN: 968-5563-04-X.',
       tipo: 'Libro',
       link: 'https://www.academia.edu/20330463/Canal_Parshall',
     },
     {
-      tema: '',
+      tema: 'Normatividad aplicada en el tratamiento de aguas',
       referencia:
         'Presidencia de la República de Colombia. (2012). Decreto 2667.  21 de diciembre de 2012.',
       tipo: 'Artículo',
       link: 'https://www.icbf.gov.co/cargues/avance/docs/decreto_2667_2012.htm',
     },
     {
-      tema: '',
+      tema: 'Normatividad aplicada en el tratamiento de aguas',
       referencia:
         'Resolución 0631. Ministerio de Ambiente y Desarrollo Sostenible. Bogotá. Colombia. Diario Oficial No. 49.486 de 18 de abril de 2015',
       tipo: 'Artículo',
       link: 'https://www.leyex.info/leyes/Resolucionmads631de2015.htm',
     },
     {
-      tema: '',
+      tema: 'Operación de sistemas y unidades',
       referencia:
         'Tippens Paul. (2011). <i>Física: conceptos y aplicaciones.</i> Mc Graw Hill. ISBN 9786071504715',
       tipo: 'Libro',
