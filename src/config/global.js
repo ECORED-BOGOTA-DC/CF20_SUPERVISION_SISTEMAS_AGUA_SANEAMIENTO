@@ -144,6 +144,14 @@ export default {
       link: 'https://www.youtube.com/watch?v=uHjJi2YU43M',
     },
     {
+      tema: 'Fundamentos básicos para el tratamiento de aguas residuales',
+      referencia:
+        'Guerrero Legarreta, M. (2010). El agua. FCE - Fondo de Cultura Económica.',
+      tipo: 'Libro',
+      link:
+        'https://biblioteca.sena.edu.co/F/TVYNF98RI79U6DIFE236T5LD7CUR9VIKJHPQMSX19QABM6CC7J-19534?func=full-set-set&set_number=004676&set_entry=000001&format=999',
+    },
+    {
       tema: 'Tratamiento de las aguas residuales',
       referencia:
         'Ministerio de Desarrollo Económico. (2000). <i>Reglamento técnico del sector de Agua potable y Saneamiento básico RAS - 2000.</i> Título - El tratamiento de aguas residuales. Dirección de agua potable y saneamiento básico',

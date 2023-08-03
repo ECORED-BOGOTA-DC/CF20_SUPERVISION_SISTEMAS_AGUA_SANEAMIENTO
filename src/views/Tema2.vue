@@ -140,8 +140,7 @@
       .col-lg-10.mt-3
         .titulo-sexto.color-figura.mb-5
           h5.mb-0 Figura 13.
-          br
-          i Secuencia lógica de procesos de tratamiento de aguas residuales
+          | Secuencia lógica de procesos de tratamiento de aguas residuales
 
         figure
           img(src="@/assets/curso/temas/tema2/img10.svg", alt="Figura 13. Muestra la secuencia lógica de los procesos de tratamiento de aguas residuales.")    
@@ -218,8 +217,7 @@
       .col-lg-10.mt-3
         .titulo-sexto.color-figura.mb-5
           h5.mb-0 Figura 14.
-          br
-          i Concentraciones de afluente y efluente de un proceso de sedimentación
+          | Concentraciones de afluente y efluente de un proceso de sedimentación
 
         figure
           img(src="@/assets/curso/temas/tema2/img11.svg", alt="Figura 14. Muestra la conformación de la concentración de afluente y efluente en un proceso de sedimentación.")
@@ -228,62 +226,11 @@
       p Por ejemplo, si se tiene un afluente con una concentración de sólidos de 1200 mg/l y este ingresa a un sedimentador que tiene una eficiencia de remoción del 93% ¿cuál será la concentración del efluente ?
 
 
-    .row.justify-content-center.align-items-center.mb-5(title="Imagen de un tablero que muestra la operación para conocer la concentración del afluente con sus respectivas fórmulas.")
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .bg-tablero.p-5.texto-blanco 
-          .row
-            .col-lg-10
-              .row.justify-content-center.align-items-center.mb-5
-                .col-lg-3
-                  p.text-center <i>Eficiencia (%) =</i>
+        figure
+          img(src="@/assets/curso/temas/tema2/img12.svg", alt="Imagen de un tablero que muestra la operación para conocer la concentración del afluente con sus respectivas fórmulas.")
 
-                .col-lg-8
-                  figure
-                    img(src="@/assets/curso/temas/tema2/img12.svg", alt="Imágen decorativa").img12-13_tm2
-
-              .row.justify-content-center.align-items-center.mb-5
-                .col-lg-3
-                  p.text-center <i>93% =</i>
-
-                .col-lg-8
-                  figure
-                    img(src="@/assets/curso/temas/tema2/img13.svg", alt="Imágen decorativa").img12-13_tm2
-
-              .row.justify-content-center.align-items-center.mb-5
-                .col-lg-3
-                  p.text-center <i>0,93=</i>
-
-                .col-lg-8
-                  figure
-                    img(src="@/assets/curso/temas/tema2/img13-2.svg", alt="Imágen decorativa").img12-13_tm2
-
-              .row.mb-3
-                .col-lg-4
-                  p 0,93 x 1200 mg/l =
-
-                .col-lg-8 
-                  p 1200 mg/l - Concentración efluente
-
-              .row.mb-3
-                .col-lg-5
-                  p <i>Concentración efluente =</i>
-
-                .col-lg-7
-                  p 1200 mg/l - (0,93 x 1200 mg/l)
-
-              .row.mb-3
-                .col-lg-5
-                  p <i>Concentración efluente =</i>
-
-                .col-lg-7
-                  p 1200 mg/l -1116 mg/l
-
-              .row.mb-3
-                .col-lg-5
-                  p <i>Concentración efluente =</i> 
-
-                .col-lg-7
-                  p 84  mg/l
 
     .row.justify-content-center.align-items-center.mb-5(title="Imagen con resultado de eficiencia y concentración.")
       .col-lg-10
@@ -302,13 +249,13 @@
                     img(src="@/assets/curso/temas/tema2/img16.svg", alt="Imágen decorativa")
 
               .row
-                p <i>Concentración intermedia = Concentración inicial -( Concentración inicial</i> x <i>eficiencia equipo</i> A/100)
+                p <i>Concentración intermedia = Concentración inicial -( Concentración inicial</i> x <i>eficiencia equipo A</i>/100)
 
-                p <i>Concentración intermedia</i> = 1000 mg/l -( 1000 mg/l  x  0,5)
+                p <i>Concentración intermedia</i> = 1000 <i>mg/l</i> -( 1000 <i>mg/l</i>  x  0,5)
 
-                p <i>Concentración intermedia</i> = 1000 mg/l - 500 mg/l
+                p <i>Concentración intermedia</i> = 1000 <i>mg/l</i> - 500 <i>mg/l</i>
 
-                p <i>Concentración intermedia</i> = 500 mg/l
+                p <i>Concentración intermedia</i> = 500 <i>mg/l</i>
 
 
       p Luego así, conociendo la concentración intermedia, se puede calcular la concentración final a partir del equipo B, así:
@@ -330,15 +277,15 @@
                     img(src="@/assets/curso/temas/tema2/img16.svg", alt="Imágen decorativa")
 
               .row
-                p <i>Concentración intermedia = Concentración inicial -( Concentración inicial</i> x <i>eficiencia equipo</i> B/100)
+                p <i>Concentración intermedia = Concentración inicial -( Concentración inicial</i> x <i>eficiencia equipo B</i>/100)
 
-                p <i>Concentración intermedia</i> = 500 mg/l -( 500 mg/l  x  0,5)
+                p <i>Concentración intermedia</i> = 500 <i>mg/l</i> -( 500 <i>mg/l</i>  x  0,5)
 
-                p <i>Concentración intermedia</i> = 500 mg/l - 250 mg/l
+                p <i>Concentración intermedia</i> = 500 <i>mg/l</i> - 250 <i>mg/l</i>
 
-                p <i>Concentración intermedia</i> = 250 mg/l
+                p <i>Concentración intermedia</i> = 250 <i>mg/l</i>
 
-      p El efluente, después de los dos equipos para el tratamiento, tendrá una concentración de 250 mg/l de contaminante.
+      p El efluente, después de los dos equipos para el tratamiento, tendrá una concentración de 250 <i>mg/l</i> de contaminante.
 
 
     .row.bg1-tema2.align-items-center.mb-5(data-aos="fade-right")
