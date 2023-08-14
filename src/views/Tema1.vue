@@ -171,10 +171,10 @@
           h5.texto-blanco Solución:
 
           .row.justify-content-center.align-items-center.mb-5
-            .col-lg-6
+            .col-lg-6.col-sm-8
               p.texto-blanco.text-center <i>Volumen tanque = 754 pies<sup>3</sup> x</i>
             
-            .col-8.col-lg-3
+            .col-8.col-lg-3.col-sm-4
               figure
                 img(src='@/assets/curso/temas/tema1/img9.svg', alt='Imágen decorativa').img9-tm1
 
@@ -217,10 +217,10 @@
           .row.justify-content-center.align-items-center.mb-5
             p.texto-blanco.text-center.mb-5 <i>Masa en kilogramos = masa en libras  x factor de conversión</i>
 
-            .col-lg-6
+            .col-lg-6.col-sm-9
               p.texto-blanco.text-center <i>Masa en kilogramos</i> = 3000 lb x
             
-            .col-6.col-lg-2
+            .col-6.col-lg-2.col-sm-3
               figure
                 img(src='@/assets/curso/temas/tema1/img13.svg', alt='Imágen decorativa').img9-tm1
 
@@ -233,8 +233,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .tarjeta.tarjeta-azul2.p-4
         .row.justify-content-center.align-items-center
-          .col-lg-3
-            figure
+          .col-8.col-lg-3
+            figure.mb-3
               img(src='@/assets/curso/temas/tema1/img15.svg', alt='Imágen decorativa').img15-tm1
 
           .col-lg-9
@@ -287,7 +287,7 @@
           h4.text-center.text-white.mt-3 <i>Caudal volumétrico (Q) =  V/t</i>
 
       .col-lg-10.mb-4
-        p Por ejemplo, ¿cuál es el caudal volumétrico en litros por segundo de una PTAR que vierte 0,450 metros cúbicos de agua residual en 2 minutos?
+        p Por ejemplo, ¿cuál es el caudal volumétrico en litros por segundo de una PTAR que vierte 0,450 metros cúbicos de agua residual en 2 minutos?.
 
       .col-lg-6.mb-4
         figure
@@ -311,7 +311,7 @@
             .col-7.col-lg-9
               p.text-center.texto-blanco <i>Caudal volumétrico (Q)=</i>
             
-            .col-5.col-lg-3
+            .col-5.col-lg-3.col-sm-3
               figure
                 img(src='@/assets/curso/temas/tema1/img18.svg', alt='Imágen decorativa').img18-tm1
 
@@ -320,7 +320,7 @@
             .col-6.col-lg-9
               p.text-center.texto-blanco <i>Caudal volumétrico (Q)=</i>
             
-            .col-6.col-lg-3
+            .col-6.col-lg-3.col-sm-4
               figure
                 img(src='@/assets/curso/temas/tema1/img19.svg', alt='Imágen decorativa').img19-tm1
 
@@ -329,7 +329,7 @@
             .col-7.col-lg-6
               p.text-center.texto-blanco <i>Caudal volumétrico (Q)= 0,5</i>
             
-            .col-5.col-lg-3
+            .col-5.col-lg-3.col-sm-3
               figure
                 img(src='@/assets/curso/temas/tema1/img20.svg', alt='Imágen decorativa').img20-tm1
 
@@ -422,7 +422,7 @@
       .col-lg-9
         .tarjeta.tarjeta-azul2.p-5 
           .row.justify-content-center.align-items-center
-            .col-10.col-lg-5.mb-lg-0.mb-4
+            .col-10.col-lg-5.col-sm-8.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img30.svg', alt='Imágen decorativa').img30-tm1
 
@@ -458,7 +458,7 @@
         p.text-center <i>Q</i> = (5 <i>m/s</i>) (2,25 <i>m<sup>2</sup></i>)
         p.text-center <b><i>Q</i> = 11,25 <i>m<sup>3</sup>/s</i></b>
 
-      .col-8.col-lg-4
+      .col-6.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema1/img31.png', alt='Imágen decorativa')        
 
@@ -739,7 +739,7 @@
 
           .row.p-4.p-lg-5(titulo="Caracterización")
             .col-md-7.mb-4.mb-md-0
-              p Es la determinación de la cantidad y calidad de las aguas residuales, se realiza mediante la toma de una muestra representada en una caja de inspección externa o de aforo y posteriormente se hace el análisis de las aguas en un laboratorio acreditado por el Ideam.
+              p Es la determinación de la cantidad y calidad de las aguas residuales, se realiza mediante la toma de una muestra representada en una caja de inspección externa o de aforo y posteriormente se hace el análisis de las aguas en un laboratorio acreditado por el IDEAM.
           
             .col-md-5
               figure
@@ -874,7 +874,7 @@
       p Con el fin de ampliar la información, lo invitamos a estudiar la Resolución 0631 del Ministerio de Ambiente y Desarrollo Sostenible, que se encuentra en el material complementario. Indagar desde el Capítulo III, Valores límites máximos permisibles microbiológicos en vertimientos puntuales de aguas residuales (ARD y ARnD) a cuerpos de aguas superficiales.
 
     .row.bg4-tema1.align-items-center.mb-5(data-aos="fade-right")
-      h4.text-white.mt-3 Concentración de contamientes
+      h4.text-white.mt-3 Concentración de contaminantes
 
     .row.justify-content-center.align-items-center.mb-5
       p.mb-5 Cuando se hacen los ensayos de laboratorio, de acuerdo con los métodos estandarizados, se obtiene la concentración de contaminantes en el agua, los cuales representan la masa de contaminante presente en un volumen de agua. Se establecen mediante la ecuación:
@@ -1052,18 +1052,18 @@
             p.texto-blanco Una vez se conoce la masa de contaminante presente en el tanque y el volumen, se procede a calcular la concentración de contaminante.
             
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-7
+              .col-lg-7.col-sm-6
                 p.texto-blanco <i>Concentración contaminante tanque I =</i>
               
-              .col-8.col-lg-5.mb-2
+              .col-8.col-lg-5.col-sm-6.mb-2
                 figure
                   img(src='@/assets/curso/temas/tema1/img75.svg', alt='Imágen decorativa')
 
             .row.justify-content-center.align-items-center
-              .col-lg-7
+              .col-sm-6.col-lg-7
                 p.texto-blanco <i>Concentración contaminante tanque I =</i> 
               
-              .col-8.col-lg-5.mb-2           
+              .col-8.col-lg-5.col-sm-6.mb-2           
                 figure
                   img(src='@/assets/curso/temas/tema1/img76.svg', alt='Imágen decorativa')
 

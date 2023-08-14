@@ -10,7 +10,7 @@
       h1 Introducción
 
     .row.justify-content-center.align-items-center.mb-5
-      p En este componente se analizarán los conceptos básicos sobre la operación de sistemas y unidades de tratamiento de vertimientos, partiendo desde la identificación del origen de los mismos, hasta los diferentes tratamientos base existente, ampliando conocimientos de matemáticas e hidráulica básica y las operaciones inherentes en la práctica de estos conocimientos, los invitamos a ver la siguiente presentación. 
+      p En este componente se analizarán los conceptos básicos sobre la operación de sistemas y unidades de tratamiento de vertimientos, partiendo desde la identificación del origen de los mismos, hasta los diferentes tratamientos base existente, ampliando conocimientos de matemáticas e hidráulica básica y las operaciones inherentes en la práctica de estos conocimientos, los invitamos a ver la siguiente información. 
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -29,13 +29,8 @@ export default {
     datosSlyder: [
       {
         texto:
-          'De acuerdo con el desarrollo social y económico del planeta, se ha evidenciado una curva exponencial en el crecimiento poblacional, lo cual ha generado no solo que se demanden más recursos como el hídrico, sino, ',
+          'De acuerdo con el desarrollo social y económico del planeta, se ha evidenciado una curva exponencial en el crecimiento poblacional, lo cual ha generado no solo que se demanden más recursos como el hídrico, sino, a su vez, que se generen más aspectos ambientales como los vertimientos productos (resultantes del uso de ese recurso hídrico en diferentes actividades); sin embargo, menos del 5 % de las aguas de alcantarillado de las ciudades reciben tratamiento.',
         imagen: require('@/assets/curso/temas/introduccion/img1.svg'),
-      },
-      {
-        texto:
-          'A su vez, que se generen más aspectos ambientales como los vertimientos productos (resultantes del uso de ese recurso hídrico en diferentes actividades); sin embargo, menos del 5 % de las aguas de alcantarillado de las ciudades reciben tratamiento.',
-        imagen: require('@/assets/curso/temas/introduccion/img2.svg'),
       },
       {
         texto:

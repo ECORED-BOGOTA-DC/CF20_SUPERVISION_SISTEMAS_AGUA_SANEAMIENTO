@@ -122,11 +122,11 @@
           
         .py-4.py-md-5(titulo="Tratamiento primario" :icono="require('@/assets/curso/temas/tema2/img4.svg')")
           .row.p-5
-            p Consistente en la eliminación de los sólidos suspendidos contenidos en ellas por cualquier método, también se usan tamices y equipos como sedimentadores para realizar métodos como sedimentación, filtración, flotación, precipitación entre otros.
+            p Consistente en la eliminación de los sólidos suspendidos contenidos en ellas por cualquier método, también se usan tamices y equipos como sedimentadores para realizar métodos como sedimentación, filtración, flotación, precipitación, entre otros.
 
         .py-4.py-md-5(titulo="Tratamiento secundario" :icono="require('@/assets/curso/temas/tema2/img5.svg')")
           .row.p-5
-            p Consistente en la eliminación o en la remoción de materia orgánica soluble y suspendida en compuestos estables, por medio de tratamientos fisicoquímicos como la coagulación , floculación , decantación, flotación, filtración, separación por membranas, adsorción e intercambio de iones, tratamientos químicos (precipitación, neutralización y óxido-reducción) y tratamientos biológicos (lodos activados, filtros percoladores, tanques Imhoff, lagunas de oxidación, biodiscos, zanjas de oxidación, filtros de arena, zanjas filtrantes) para eliminar patógenos y otros elementos contaminantes.
+            p Consistente en la eliminación o en la remoción de materia orgánica soluble y suspendida en compuestos estables, por medio de tratamientos fisicoquímicos como la coagulación, floculación, decantación, flotación, filtración, separación por membranas, adsorción e intercambio de iones, tratamientos químicos (precipitación, neutralización y óxido-reducción) y tratamientos biológicos (lodos activados, filtros percoladores, tanques Imhoff, lagunas de oxidación, biodiscos, zanjas de oxidación, filtros de arena, zanjas filtrantes) para eliminar patógenos y otros elementos contaminantes.
           
         .py-4.py-md-5(titulo="Tratamiento terciario" :icono="require('@/assets/curso/temas/tema2/img6.svg')")
           .row.p-5
@@ -156,50 +156,50 @@
       .col-lg-10
         .bg-fondo1.p-3.p-lg-5.mb-0
           .row.justify-content-center.align-items-center
-            .col-lg-3
+            .col-lg-3.col-sm-11
               h4 Caracterización
 
-            .col-lg-8
+            .col-lg-8.col-sm-11
               p Determinación del origen de las aguas residuales, estado de las redes de alcantarillado, localización y características de los puntos de vertido y el análisis de los parámetros que contiene el agua. 
 
         .bg-fondo2.p-3.p-lg-5.mb-2
           .row.justify-content-center.align-items-center
-            .col-lg-3
+            .col-lg-3.col-sm-11
               h4 Diagnóstico ambiental
 
-            .col-lg-8
+            .col-lg-8.col-sm-11
               p.mb-0 Realizar una evaluación ambiental del proyecto a realizar.
 
         .bg-fondo3.p-3.p-lg-5.mb-2
           .row.justify-content-center.align-items-center
-            .col-lg-3
+            .col-lg-3.col-sm-11
               h4 Establecimiento de los objetivos y metas a alcanzar
 
-            .col-lg-8
+            .col-lg-8.col-sm-11
               p.mb-0 Enfocado siempre en el cumplimiento de la normatividad aplicable.
 
         .bg-fondo4.p-3.p-lg-5.mb-0
           .row.justify-content-center.align-items-center
-            .col-lg-3
+            .col-lg-3.col-sm-11
               h4.mt-3 Propuestas y soluciones técnicas
 
-            .col-lg-8
+            .col-lg-8.col-sm-11
               p.mb-0 Comparación técnica y económica de los diferentes equipos y métodos de depuración para la determinación del tren de tratamiento más acorde al proyecto.
 
         .bg-fondo5.p-3.p-lg-5.mb-0
           .row.justify-content-center.align-items-center
-            .col-lg-3
+            .col-lg-3.col-sm-11
               h4.mt-3 Selección del tren de tratamiento
 
-            .col-lg-8
+            .col-lg-8.col-sm-11
               p.mb-0 Teniendo en cuenta las eficiencias de remoción.
 
         .bg-fondo6.p-3.p-lg-5.mb-2
           .row.justify-content-center.align-items-center
-            .col-lg-3
+            .col-lg-3.col-sm-11
               h4.mt-3 Determinación de aspectos funcionales
 
-            .col-lg-8
+            .col-lg-8.col-sm-11
               p.mb-0 Administrativos y operacionales
 
     .row.bg1-tema2.align-items-center.mb-5(data-aos="fade-right")
@@ -223,7 +223,7 @@
           img(src="@/assets/curso/temas/tema2/img11.svg", alt="Figura 14. Muestra la conformación de la concentración de afluente y efluente en un proceso de sedimentación.")
 
     .row.justify-content-center.align-items-center.mb-5
-      p Por ejemplo, si se tiene un afluente con una concentración de sólidos de 1200 mg/l y este ingresa a un sedimentador que tiene una eficiencia de remoción del 93% ¿cuál será la concentración del efluente ?
+      p Por ejemplo, si se tiene un afluente con una concentración de sólidos de 1200 mg/l y este ingresa a un sedimentador que tiene una eficiencia de remoción del 93% ¿cuál será la concentración del efluente?
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -366,11 +366,11 @@
       .col-lg-10
         .bg-fondo8.p-5.mb-5
           .row
-            .col-lg-1
-            .col-lg-11
+            .col-lg-1.col-sm-1
+            .col-lg-11.col-sm-11
               h4.text-center Lodos activados
 
-              p.mb-0.text-center De acuerdo con el Ministerio de Medio Ambiente (2002), busca lograr en un tanque principal o aireador, la aglomeración de los microorganismos, y el suministro de aire por medios artificiales, bien sea por inyección de aire o de oxígeno puro. Los aglomerados están formados por organismos, principalmente bacterias heterofílicas, y por material coloidal orgánico e inorgánico. Aunque las bacterias son los principales agentes para la remoción de la materia orgánica, los aglomerados en sí son parte fundamental del proceso de descontaminación. Casi 40 % de la carga orgánica presente en las aguas es absorbida por interacciones iónicas y queda entrampada en el floc. Luego es hidrolizada por enzimas extracelulares antes de ser absorbida y metabolizada por las bacterias. (p.76). En este tipo de sistema se deben controlar los olores, caudales, sistema de aireación, lodos y espumas entre otros.
+              p.mb-0.text-center De acuerdo con el Ministerio de Medio Ambiente (2002), busca lograr en un tanque principal o aireador, la aglomeración de los microorganismos, y el suministro de aire por medios artificiales, bien sea por inyección de aire o de oxígeno puro. Los aglomerados están formados por organismos, principalmente bacterias heterofílicas, y por material coloidal orgánico e inorgánico. Aunque las bacterias son los principales agentes para la remoción de la materia orgánica, los aglomerados en sí son parte fundamental del proceso de descontaminación. Casi 40 % de la carga orgánica presente en las aguas es absorbida por interacciones iónicas y queda entrampada en el floc. Luego es hidrolizada por enzimas extracelulares antes de ser absorbida y metabolizada por las bacterias. (p.76). En este tipo de sistema se deben controlar los olores, caudales, sistema de aireación, lodos y espumas, entre otros.
 
     .row.justify-content-center.align-items-center
       .col-8.col-lg-2
@@ -380,8 +380,8 @@
       .col-lg-10
         .bg-fondo8.p-5.mb-5
           .row
-            .col-lg-1
-            .col-lg-11
+            .col-lg-1.col-sm-1
+            .col-lg-11.col-sm-11
               h4.text-center Filtros percoladores
 
               p.mb-0.text-center Son tanques con lechos de material grueso, usualmente de materiales sintéticos, en los cuales son aplicadas las aguas residuales; las bacterias están adheridas al lecho y el aire pasa a través de los espacios disponibles del mismo, suministrando oxígeno (este proceso puede ser natural o artificial), las bacterias presentes descomponen las aguas residuales a medida que están pasan (percolan) por el lecho, hacia el fondo del tanque, eventualmente llegará un punto que la capa bacteriana del lecho adquiere un espesor que impide el paso, se desprende hidráulicamente y deberá pasar a un clarificador para separar los fangos o lodos formados.
@@ -394,8 +394,8 @@
       .col-lg-10
         .bg-fondo8.p-5.mb-5
           .row
-            .col-lg-1
-            .col-lg-11
+            .col-lg-1.col-sm-1
+            .col-lg-11.col-sm-11
               h4.text-center Biodiscos
 
               p.mb-0.text-center Tiene el mismo fundamento de los filtros percoladores, solo que en este las bacterias están adheridas a medio soporte que rota lentamente, haciendo contacto cíclico, tomando los nutrientes y haciendo el proceso de descomposición.
@@ -466,9 +466,9 @@
       .col-lg-10
         .bg-fondo9.p-5
           .row 
-            .col-lg-2
-            .col-lg-10
-              p.text-center Para  conocer al detalle cada proceso y unidad de tratamiento, te recomendamos la lectura del “Reglamento técnico del sector de Agua potable y Saneamiento básico RAS - 2000. Título - El tratamiento de aguas residuales. Dirección de agua potable y saneamiento básico”, el cual se encuentra en el material complementario.
+            .col-lg-2.col-sm-2
+            .col-lg-10.col-sm-10
+              p.text-center Para conocer al detalle cada proceso y unidad de tratamiento, te recomendamos la lectura del “Reglamento técnico del sector de Agua potable y Saneamiento básico RAS - 2000. Título - El tratamiento de aguas residuales. Dirección de agua potable y saneamiento básico”, el cual se encuentra en el material complementario.
 
               p.text-center  Encontrará una descripción detallada de los procesos de tratamiento, de la página 41 a la 119, y una descripción de la operación y mantenimiento, de la página 121 a la 127.
 
@@ -516,7 +516,7 @@
               p.mb-0.tv.margin-icon <i>SST</i> = $ 56, 09 por Kg
 
           .row
-            .col-lg-10          
+            .col-lg-10.col-sm-10        
               p Se debe contemplar la concentración de estos parámetros después del tratamiento dispuesto (la caracterización final del vertimiento). En este caso, los datos supuestos son:
 
               .list.mb-3(data-aos="fade-left")
@@ -552,8 +552,8 @@
       .col-lg-10
         .bg-fondo9.p-5
           .row 
-            .col-lg-2
-            .col-lg-10
+            .col-lg-2.col-sm-2
+            .col-lg-10.col-sm-10
               p.text-center Con el fin de ampliar la descripción de estos elementos, consultar el “Manual de prácticas de seguridad en el trabajo”, que se encuentra en el material complementario.
 
               p.text-center Encontrará una descripción detallada de los elementos de protección, desde la página 75 a la 79, y para comprender su aplicabilidad, leer las páginas 79 a la 83.
