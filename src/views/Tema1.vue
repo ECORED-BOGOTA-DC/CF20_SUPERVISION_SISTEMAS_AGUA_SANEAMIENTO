@@ -491,7 +491,7 @@
           h5.mb-0 Figura 5.
           | Medidores de flujo
 
-      .col-lg-6.mb-5
+      .col-lg-7.mb-5
         figure
           img(src='@/assets/curso/temas/tema1/img33.svg', alt='Figura 5. contiene la descripción y dibujos de los medidores de flujo.')     
           figcaption Nota. Lux, M. (2010). Medidores de flujo en canales abiertos. Guatemala: Universidad de San Carlos. (pp.15-18)
