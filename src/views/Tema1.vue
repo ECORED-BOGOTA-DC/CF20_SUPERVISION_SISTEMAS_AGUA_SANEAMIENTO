@@ -242,7 +242,6 @@
 
             p En las páginas 42 a 45 encontrará más detalles sobre el procedimiento a realizar en el uso de los factores de conversión y en la página 807 encontrará la tabla de factores de conversión de volumen y masa. 
 
-            p Para consultarlo debe ingresar a la página de bibliotecas del SENA y posteriormente a bases de datos, una vez allí, consultar E-books y buscar: Física: conceptos y aplicaciones y seleccionar el autor, Paul Tippens.
 
     .row.bg1-tema1.align-items-center.mb-5(data-aos="fade-right")
       h4.text-white.mt-3 Unidades de medida
@@ -714,7 +713,6 @@
                 .col.mb-3.mb-sm-0
                   p Para comprender mejor la contaminación en el agua, lo invitamos a consultar el libro <i>“El agua”</i>, el cual se encuentra en el material complementario.
                   p De las páginas 127 a la 156 encontrará el capítulo IV, los problemas del agua, en el cual podrá hacer un reconocimiento de los diferentes orígenes de las aguas residuales y sus problemáticas más relevantes.
-                  p Para consultarlo debe ingresar a la página de bibliotecas del SENA y posteriormente a bases de datos, una vez allí, consultar E-libro y buscar: generación de aguas residuales, dar clic en el segundo libro que indica AGUA, de Guerrero Legarreta, Manuel.
 
                 .col-sm-auto
                   a.boton.color-primario(href="https://agua.org.mx/wp-content/uploads/2007/06/el-agua-manuel-guerrero.pdf" target="_blank")

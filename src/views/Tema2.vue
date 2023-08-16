@@ -548,17 +548,6 @@
           iframe(width="560" height="315" src="https://www.youtube.com/embed/TRsILNQK4go" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .bg-fondo9.p-5
-          .row 
-            .col-lg-2.col-sm-2
-            .col-lg-10.col-sm-10
-              p.text-center Con el fin de ampliar la descripción de estos elementos, consultar el “Manual de prácticas de seguridad en el trabajo”, que se encuentra en el material complementario.
-
-              p.text-center Encontrará una descripción detallada de los elementos de protección, desde la página 75 a la 79, y para comprender su aplicabilidad, leer las páginas 79 a la 83.
-
-              p.text-center Para consultarlo debe ingresar a la página de bibliotecas del SENA y posteriormente a bases de datos; una vez allí, consultar en E-libro y buscar: Manual de prácticas de seguridad en el trabajo, dar clic en el primer libro que indica Pastor Fernández, A. (2016). 
 
 
 
