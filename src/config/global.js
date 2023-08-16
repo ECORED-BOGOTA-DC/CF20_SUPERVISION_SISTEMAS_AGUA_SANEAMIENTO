@@ -160,14 +160,6 @@ export default {
         'https://www.minvivienda.gov.co/sites/default/files/documentos/010710_ras_titulo_e_.pdf',
     },
     {
-      tema: 'Seguridad y salud en el trabajo',
-      referencia:
-        'Pastor Fernández, A. (2016). <i>Manual de prácticas de seguridad en el trabajo.</i> Servicio de Publicaciones de la Universidad de Cádiz.',
-      tipo: 'Manual',
-      link:
-        'https://biblioteca.sena.edu.co/F/N6E54A5VX27F6VK3P19VJASJDE186BFVH4TRQE5TDN4Y6RHK2K-21375?func=full-set-set&set_number=004691&set_entry=000001&format=999',
-    },
-    {
       tema: 'Métodos y equipos de tratamiento',
       referencia:
         'Pedroza, E. (2001). <i>Serie autodidáctica de medición, canaleta Parshall.</i> México: Instituto mexicano de tecnología del agua. ISBN: 968-5563-04-X.',
@@ -194,7 +186,7 @@ export default {
         'Tippens Paul. (2011). <i>Física: conceptos y aplicaciones.</i> Mc Graw Hill. ISBN 9786071504715',
       tipo: 'Libro',
       link:
-        'https://biblioteca.sena.edu.co/F/BE6C48ASKICILTCR3GQNHJBNL4X43R31R18NRJRUUU58KLKHHJ-21092?func=full-set-set&set_number=000912&set_entry=000001&format=999',
+        'https://www.academia.edu/21268584/Fisica_Conceptos_y_Aplicaciones_Paul_Tippens_Septima_Edicion',
     },
   ],
   glosario: [
