@@ -121,7 +121,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/921200_CF20_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -149,7 +149,7 @@ export default {
         'Guerrero Legarreta, M. (2010). El agua. FCE - Fondo de Cultura Económica.',
       tipo: 'Libro',
       link:
-        'https://biblioteca.sena.edu.co/F/TVYNF98RI79U6DIFE236T5LD7CUR9VIKJHPQMSX19QABM6CC7J-19534?func=full-set-set&set_number=004676&set_entry=000001&format=999',
+        'https://agua.org.mx/wp-content/uploads/2007/06/el-agua-manuel-guerrero.pdf',
     },
     {
       tema: 'Tratamiento de las aguas residuales',

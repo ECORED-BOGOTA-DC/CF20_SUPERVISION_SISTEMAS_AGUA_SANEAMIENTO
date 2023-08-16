@@ -717,7 +717,7 @@
                   p Para consultarlo debe ingresar a la página de bibliotecas del SENA y posteriormente a bases de datos, una vez allí, consultar E-libro y buscar: generación de aguas residuales, dar clic en el segundo libro que indica AGUA, de Guerrero Legarreta, Manuel.
 
                 .col-sm-auto
-                  a.boton.color-primario(href="https://biblioteca.sena.edu.co/F/TVYNF98RI79U6DIFE236T5LD7CUR9VIKJHPQMSX19QABM6CC7J-19534?func=full-set-set&set_number=004676&set_entry=000001&format=999" target="_blank")
+                  a.boton.color-primario(href="https://agua.org.mx/wp-content/uploads/2007/06/el-agua-manuel-guerrero.pdf" target="_blank")
                     span Ver más
                     i.fas.fa-link
 
