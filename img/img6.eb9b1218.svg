@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="142" viewBox="0 0 190 142">
+  <g id="Grupo_1013618" data-name="Grupo 1013618" transform="translate(-390 -3315)">
+    <g id="Rectángulo_350145" data-name="Rectángulo 350145" transform="translate(390 3315)" fill="#fff" stroke="#ffa031" stroke-width="3">
+      <rect width="190" height="142" rx="20" stroke="none"/>
+      <rect x="1.5" y="1.5" width="187" height="139" rx="18.5" fill="none"/>
+    </g>
+    <g id="Grupo_1013569" data-name="Grupo 1013569" transform="translate(6.545 162)">
+      <g id="Grupo_1013568" data-name="Grupo 1013568" transform="translate(371.752 2875.201)">
+        <path id="Trazado_732174" data-name="Trazado 732174" d="M63.7,323.315,107.9,298.8l42.258,24.516L106.929,348.8Z" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Trazado_732175" data-name="Trazado 732175" d="M150.155,349.965l-43.226,25.484L63.7,349.965" transform="translate(0 23.349)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Trazado_732176" data-name="Trazado 732176" d="M63.7,357.647,107.9,333.131l42.258,24.516" transform="translate(0 15.667)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="5"/>
+        <line id="Línea_2950" data-name="Línea 2950" y2="50" transform="translate(63.704 323.315)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Línea_2951" data-name="Línea 2951" y2="48.596" transform="translate(106.929 348.798)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Línea_2952" data-name="Línea 2952" y2="50" transform="translate(150.155 323.315)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Línea_2953" data-name="Línea 2953" y2="50" transform="translate(107.897 298.799)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="5"/>
+      </g>
+    </g>
+  </g>
+</svg>
